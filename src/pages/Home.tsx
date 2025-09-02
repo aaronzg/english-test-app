@@ -1,4 +1,5 @@
 import { Link } from 'react-router'
+// This comment was made from my chromebook
 
 export default function Home() {
   return (
