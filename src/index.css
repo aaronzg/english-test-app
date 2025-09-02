@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@plugin "flowbite-react/plugin/tailwindcss";
+@source "../.flowbite-react/class-list.json";
+
+body{
+  @apply bg-stone-200 dark:bg-stone-950 dark:text-white text-black 
+}
+
+@layer components {
+  .option_card {
+    @apply bg-stone-400 text-center text-black min-w-50 min-h-50 flex justify-center  items-center rounded-4xl font-bold text-xl shadow-2xl transition-transform;
+    @apply select-none;
+    @apply hover:scale-105 active:scale-95
+  }
+  .question_wrong {
+    @apply border-red-600 shadow-sm shadow-red-600 bg-red-400/20
+  }
+}
+
+@layer base {
+  h1 {
+    @apply font-bold text-4xl
+  }
+
+  h2 {
+    @apply font-semibold text-3xl
+  }
+
+  h3{
+    @apply text-2xl font-semibold mb-2
+  }
+
+  h4 {
+    @apply font-semibold mb-2
+  }
+}
+
+@theme {
+  --color-dark: #2f2f2f;
+}

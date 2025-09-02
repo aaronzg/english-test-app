@@ -1,0 +1,3620 @@
+[
+  {
+    "id": 1,
+    "type": "choose",
+    "data": {
+      "question": "What ___?",
+      "options": [
+        "do he read",
+        "is he read",
+        "is he reading",
+        "does he reads"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 2,
+    "type": "choose",
+    "data": {
+      "question": "___ to the movies?",
+      "options": [
+        "You like to go",
+        "Do like you to go",
+        "Do go you to",
+        "Do you like to go"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 3,
+    "type": "choose",
+    "data": {
+      "question": "Dorothy is busy. ___ a sweater.",
+      "options": [
+        "She knits",
+        "She's knitting",
+        "She knitting",
+        "She's knits"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 4,
+    "type": "choose",
+    "data": {
+      "question": "___ scrabble very often?",
+      "options": [
+        "Are you playing",
+        "Do you play",
+        "Are you play",
+        "Are you be playing"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 5,
+    "type": "choose",
+    "data": {
+      "question": "What kind of music ___?",
+      "options": [
+        "is she composing",
+        "she's composing",
+        "she composes",
+        "does she composes"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 6,
+    "type": "choose",
+    "data": {
+      "question": "___ whenever he can.",
+      "options": [
+        "He's exercises",
+        "He's exercise",
+        "He exercises",
+        "Does he exercise"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 7,
+    "type": "choose",
+    "data": {
+      "question": "___ the players on our team practicing now?",
+      "options": [
+        "Our",
+        "Are",
+        "When",
+        "Do"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 8,
+    "type": "choose",
+    "data": {
+      "question": "___ Mr. and Mrs. Lopez baking?",
+      "options": [
+        "What is",
+        "What do",
+        "Are they",
+        "What are"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 9,
+    "type": "choose",
+    "data": {
+      "question": "___ the news every day?",
+      "options": [
+        "Does he watch",
+        "Does he watches",
+        "Is he watches",
+        "Is he watch"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 10,
+    "type": "choose",
+    "data": {
+      "question": "___ ski?",
+      "options": [
+        "Do you like",
+        "Does he liking to",
+        "Do they like to",
+        "You do like to"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 11,
+    "type": "choose",
+    "data": {
+      "question": "___ talking about ___ grandchildren.",
+      "options": [
+        "Their . . . their",
+        "We're . . . our",
+        "She . . . her",
+        "He's . . . he's"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 12,
+    "type": "choose",
+    "data": {
+      "question": "___ write to ___ cousin in Miami every week.",
+      "options": [
+        "We're . . . our",
+        "She . . . her",
+        "I . . . my",
+        "They . . . they're"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 13,
+    "type": "choose",
+    "data": {
+      "question": "She ___ swim very well. She ___ a good swimmer.",
+      "options": [
+        "isn't . . . doesn't",
+        "doesn't . . . is",
+        "not . . . isn't",
+        "doesn't . . . isn't"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 14,
+    "type": "choose",
+    "data": {
+      "question": "___ coach tells ___ he's a good soccer player.",
+      "options": [
+        "His . . . him",
+        "His . . . his",
+        "Hers . . . her",
+        "Her . . . she"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 15,
+    "type": "choose",
+    "data": {
+      "question": "___ play tennis very often. ___ very busy.",
+      "options": [
+        "We don't . . . We don't be",
+        "She doesn't . . . She",
+        "We don't . . . We're",
+        "We . . . We'll"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 16,
+    "type": "choose",
+    "data": {
+      "question": "Are you busy?",
+      "options": [
+        "Yes, I am.",
+        "Yes, I do.",
+        "Yes. I'm.",
+        "No, I not."
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 17,
+    "type": "choose",
+    "data": {
+      "question": "Is Helen cleaning her attic today?",
+      "options": [
+        "No, she's isn't.",
+        "Yes, she does.",
+        "Yes, she's.",
+        "Yes, she is."
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 18,
+    "type": "choose",
+    "data": {
+      "question": "Who are they calling?",
+      "options": [
+        "Every weekend.",
+        "Their cousins.",
+        "No, they aren't.",
+        "Because they miss them."
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 19,
+    "type": "choose",
+    "data": {
+      "question": "Do you like to play the violin?",
+      "options": [
+        "No, I'm not.",
+        "No, I don't.",
+        "No, you don't.",
+        "No, I don't like."
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 20,
+    "type": "choose",
+    "data": {
+      "question": "How often do you see them?",
+      "options": [
+        "Three times month.",
+        "Twice week.",
+        "Once a month.",
+        "Once times a day."
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 21,
+    "type": "which-word",
+    "data": {
+      "lines": [
+        {
+          "text": "_ to swim?",
+          "options": [["You like", "Do like you", "Do you like"]],
+          "correctAnswers": [2]
+        },
+        {
+          "text": "My sister Katie _, and she's a very good swimmer.",
+          "options": [["is", "does", "do"]],
+          "correctAnswers": [1]
+        },
+        {
+          "text": "She practices _ because she _ to be a professional swimmer when she grows up.",
+          "options": [
+            ["all time", "right now", "all the time"],
+            ["likes", "wants", "can"]
+          ],
+          "correctAnswers": [2, 1]
+        },
+        {
+          "text": "My sister Katie's coach _ swims better than anyone else in the school, and everyone _ she's an excellent swimmer.",
+          "options": [
+            ["tells her she", "tell everybody she", "says she's"],
+            ["tells she", "say she", "says she's"]
+          ],
+          "correctAnswers": [0, 2]
+        }
+      ]
+    }
+  },
+  {
+    "id": 22,
+    "type": "choose",
+    "data": {
+      "question": "What kind of car ___?",
+      "options": [
+        "did they bought",
+        "did they buy",
+        "they bought",
+        "bought they"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 23,
+    "type": "choose",
+    "data": {
+      "question": "___ many pictures?",
+      "options": [
+        "Did you took",
+        "What did you take",
+        "Why you took so",
+        "Did you take"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 24,
+    "type": "choose",
+    "data": {
+      "question": "Alice didn't sleep well last night because ___.",
+      "options": [
+        "she didn't be tired",
+        "she wasn't tired",
+        "she isn't tired",
+        "she was tired"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 25,
+    "type": "choose",
+    "data": {
+      "question": "___ yesterday?",
+      "options": [
+        "What you did",
+        "What did you did",
+        "What did you do",
+        "What you did do"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 26,
+    "type": "choose",
+    "data": {
+      "question": "___ her leg?",
+      "options": [
+        "How she broke",
+        "How did she broke",
+        "How she did break",
+        "How did she break"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 27,
+    "type": "choose",
+    "data": {
+      "question": "What happened ___?",
+      "options": [
+        "while he was skiing",
+        "while was he skiing",
+        "when did he ski",
+        "while was he skied"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 28,
+    "type": "choose",
+    "data": {
+      "question": "___ their lines in the play because they were nervous.",
+      "options": [
+        "They didn't forget",
+        "They forget",
+        "They forgotten",
+        "They forgot"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 29,
+    "type": "choose",
+    "data": {
+      "question": "She didn't take the plane because ___ on time.",
+      "options": [
+        "she wasn't",
+        "she didn't",
+        "she's",
+        "she was"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 30,
+    "type": "choose",
+    "data": {
+      "question": "I didn't drink my milk because ___.",
+      "options": [
+        "I wasn't full",
+        "I wasn't thirsty",
+        "was I thirsty",
+        "I was thirsty"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 31,
+    "type": "choose",
+    "data": {
+      "question": "He fell asleep during the movie ___.",
+      "options": [
+        "while he was boring",
+        "because it was bored",
+        "because he was bored",
+        "while he was bored"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 32,
+    "type": "choose",
+    "data": {
+      "question": "Stuart and Brian burned themselves because ___.",
+      "options": [
+        "they were careful",
+        "they weren't careful",
+        "they didn't be careful",
+        "they weren't careless"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 33,
+    "type": "choose",
+    "data": {
+      "question": "Did you do well on the test?",
+      "options": [
+        "Yes, I did. I wasn't prepared.",
+        "Yes, I did. I was prepared.",
+        "No, I wasn't. I prepared.",
+        "No, I didn't. I was prepared."
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 34,
+    "type": "choose",
+    "data": {
+      "question": "Did she come home by boat?",
+      "options": [
+        "Yes, she did. She took a plane.",
+        "No, she didn't. She came home by boat.",
+        "Yes, she did. She didn't take a plane.",
+        "Yes, she did. She didn't come home by boat."
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 35,
+    "type": "choose",
+    "data": {
+      "question": "Were you scared during the movie?",
+      "options": [
+        "No, I wasn't. I covered my eyes.",
+        "Yes, I was. I didn't cover my eyes.",
+        "No, I wasn't. I covered my eyes.",
+        "Yes, I was. I covered my eyes."
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 36,
+    "type": "choose",
+    "data": {
+      "question": "Were they sad?",
+      "options": [
+        "Yes, they were. They cried.",
+        "No, they weren't. They were sad.",
+        "No, they weren't. They cried.",
+        "Yes, they were. They didn't cry."
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 37,
+    "type": "choose",
+    "data": {
+      "question": "Did he shout at his neighbor?",
+      "options": [
+        "No, he didn't. He was angry.",
+        "Yes, he did. He wasn't angry.",
+        "Yes, he did. He was angry.",
+        "No, he did. He wasn't angry."
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 38,
+    "type": "choose",
+    "data": {
+      "question": "Did you finish your dinner?",
+      "options": [
+        "No, we did. We weren't full.",
+        "No, we didn't. We were full.",
+        "No, we weren't. We didn't finish it.",
+        "Yes, we were. We finished it."
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 39,
+    "type": "choose",
+    "data": {
+      "question": "He got into a fight with the ___ around the corner.",
+      "options": [
+        "kind",
+        "kid",
+        "trick",
+        "block"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 40,
+    "type": "choose",
+    "data": {
+      "question": "I sprained my ___.",
+      "options": [
+        "wallet",
+        "pants",
+        "ankle",
+        "shoe"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 41,
+    "type": "choose",
+    "data": {
+      "question": "She poked herself in the ___.",
+      "options": [
+        "throat",
+        "leg",
+        "arm",
+        "eye"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 42,
+    "type": "choose",
+    "data": {
+      "question": "They were hiking in the ___.",
+      "options": [
+        "bus",
+        "woods",
+        "attic",
+        "pool"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 43,
+    "type": "choose",
+    "data": {
+      "question": "What a shame! They ___ and fell.",
+      "options": [
+        "broke",
+        "chopped",
+        "tripped",
+        "spilled"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 44,
+    "type": "choose",
+    "data": {
+      "question": "He ripped his ___.",
+      "options": [
+        "cell phone",
+        "jeans",
+        "bicycle",
+        "computer"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 45,
+    "type": "whats-the-word",
+    "data": {
+      "lines": [
+        "You know... Peter didn't _ the piano very well at his concert last night.",
+        "He _?",
+        "No. In fact, he _ very badly.",
+        "While he _ playing, a man in the audience was _ on his cell phone.",
+        "He _ very happy."
+      ],
+      "options": [
+        "play",
+        "didn't",
+        "was",
+        "played",
+        "talking",
+        "wasn't"
+      ],
+      "correctOrder": [0, 1, 2, 3, 4, 5]
+    }
+  },
+  {
+    "id": 46,
+    "type": "choose",
+    "data": {
+      "question": "He's ___ to work in his garden this afternoon.",
+      "options": [
+        "going",
+        "will",
+        "won't",
+        "wants"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 47,
+    "type": "choose",
+    "data": {
+      "question": "___ Larry go to the store soon?",
+      "options": [
+        "Is",
+        "Will",
+        "Is going",
+        "Will be"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 48,
+    "type": "choose",
+    "data": {
+      "question": "Sarah and Henry ___ to play tennis this Friday.",
+      "options": [
+        "are going to",
+        "will",
+        "won't",
+        "are going"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 49,
+    "type": "choose",
+    "data": {
+      "question": "___ be in the office tomorrow or Wednesday.",
+      "options": [
+        "I'm not",
+        "I won't",
+        "I'm not going",
+        "I'll won't"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 50,
+    "type": "choose",
+    "data": {
+      "question": "Marilyn will probably ___ on the phone for another few minutes.",
+      "options": [
+        "be talk",
+        "call",
+        "be talking",
+        "talking"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 51,
+    "type": "choose",
+    "data": {
+      "question": "We ___ going to go ice skating next weekend.",
+      "options": [
+        "aren't",
+        "won't",
+        "can't",
+        "will definitely"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 52,
+    "type": "choose",
+    "data": {
+      "question": "They ___ browsing the web for a long time.",
+      "options": [
+        "will probably be",
+        "will",
+        "are going to",
+        "won't"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 53,
+    "type": "choose",
+    "data": {
+      "question": "Dad is going ___ muffins for breakfast this morning.",
+      "options": [
+        "have to",
+        "bake",
+        "to have",
+        "having"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 54,
+    "type": "choose",
+    "data": {
+      "question": "Timothy ___ looking forward to his vacation this year.",
+      "options": [
+        "going to be",
+        "is",
+        "will",
+        "is going to"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 55,
+    "type": "choose",
+    "data": {
+      "question": "Amy ___ enjoy the movie last night.",
+      "options": [
+        "wasn't",
+        "won't",
+        "isn't",
+        "didn't"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 56,
+    "type": "choose",
+    "data": {
+      "question": "Andrea will be ___ her old apartment next week.",
+      "options": [
+        "leaving",
+        "leave",
+        "to leave",
+        "going to leave"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 57,
+    "type": "choose",
+    "data": {
+      "question": "It won't snow until ___.",
+      "options": [
+        "last winter",
+        "in the spring",
+        "next winter",
+        "yesterday"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 58,
+    "type": "choose",
+    "data": {
+      "question": "Can you call back ___?",
+      "options": [
+        "a little later",
+        "last night",
+        "for several hours",
+        "until noon"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 59,
+    "type": "choose",
+    "data": {
+      "question": "___ for a long time.",
+      "options": [
+        "She'll return",
+        "She won't return",
+        "She was returning",
+        "Will she return"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 60,
+    "type": "choose",
+    "data": {
+      "question": "It'll arrive ___.",
+      "options": [
+        "until next week",
+        "for a few hours",
+        "last night",
+        "in a few minutes"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 61,
+    "type": "choose",
+    "data": {
+      "question": "James is studying very hard ___.",
+      "options": [
+        "a little later",
+        "tonight",
+        "last semester",
+        "next weekend"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 62,
+    "type": "choose",
+    "data": {
+      "question": "My wife's train will arrive at ___.",
+      "options": [
+        "eight o'clock",
+        "a long time",
+        "later this morning",
+        "a few minutes"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 63,
+    "type": "choose",
+    "data": {
+      "question": "I'm sure he'll be happy to lend you ___.",
+      "options": [
+        "him",
+        "his",
+        "he's",
+        "their"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 64,
+    "type": "choose",
+    "data": {
+      "question": "Are these dictionaries ___?",
+      "options": [
+        "our",
+        "ours",
+        "your",
+        "them"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 65,
+    "type": "choose",
+    "data": {
+      "question": "Could I possibly borrow ___ hammer?",
+      "options": [
+        "yours",
+        "you're",
+        "your husbands",
+        "your"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 66,
+    "type": "choose",
+    "data": {
+      "question": "___ be happy to lend you a screwdriver.",
+      "options": [
+        "They'll",
+        "Their",
+        "There",
+        "You'll"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 67,
+    "type": "choose",
+    "data": {
+      "question": "I finished my composition, but my sister didn't finish ___.",
+      "options": [
+        "her",
+        "her's",
+        "mine",
+        "hers"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 68,
+    "type": "choose",
+    "data": {
+      "question": "If you don't have a pencil, you can use ___.",
+      "options": [
+        "me",
+        "our",
+        "mine",
+        "my"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 69,
+    "type": "which-word",
+    "data": {
+      "lines": [
+        {
+          "text": "Hi. This _ Angela. Can you talk for a minute?",
+          "options": [["is", "will be", "I'm"]],
+          "correctAnswers": [0]
+        },
+        {
+          "text": "I'm sorry. I can't talk _.",
+          "options": [["soon", "now", "then"]],
+          "correctAnswers": [1]
+        },
+        {
+          "text": "I'm paying my bills. Can you call back _?",
+          "options": [["later", "while", "in"]],
+          "correctAnswers": [0]
+        },
+        {
+          "text": "Sure. How much longer _ you be paying your bills?",
+          "options": [["are", "going to", "will"]],
+          "correctAnswers": [2]
+        },
+        {
+          "text": "Probably _ another _.",
+          "options": [["in", "for", "at"], ["minutes", "while", "hour"]],
+          "correctAnswers": [1, 2]
+        },
+        {
+          "text": "Okay. I'll call back a little _.",
+          "options": [["late", "later", "while"]],
+          "correctAnswers": [1]
+        }
+      ]
+    }
+  },
+  {
+    "id": 70,
+    "type": "choose",
+    "data": {
+      "question": "My brother and I ___ horses for many years.",
+      "options": [
+        "have ridden",
+        "are riding",
+        "are ridden",
+        "haven't rode"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 71,
+    "type": "choose",
+    "data": {
+      "question": "Nancy and Steve ___ a movie in a long time.",
+      "options": [
+        "have seen",
+        "haven't seen",
+        "hasn't seen",
+        "aren't seeing"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 72,
+    "type": "choose",
+    "data": {
+      "question": "___ to the bank yet?",
+      "options": [
+        "You went",
+        "Did you gone",
+        "Have you went",
+        "Have you gone"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 73,
+    "type": "choose",
+    "data": {
+      "question": "___ in the hospital last year.",
+      "options": [
+        "I've been",
+        "I haven't been",
+        "I was",
+        "I been"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 74,
+    "type": "choose",
+    "data": {
+      "question": "He's ___ in an airplane.",
+      "options": [
+        "never flying",
+        "never flown",
+        "flew yet",
+        "flown yet"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 75,
+    "type": "choose",
+    "data": {
+      "question": "___ reports for many years.",
+      "options": [
+        "I've written",
+        "I write",
+        "I've wrote",
+        "I'm not writing"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 76,
+    "type": "choose",
+    "data": {
+      "question": "___ scuba diving last year.",
+      "options": [
+        "I've gone",
+        "I haven't gone",
+        "I went",
+        "Have you gone"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 77,
+    "type": "choose",
+    "data": {
+      "question": "Sue has ___ well in school this year.",
+      "options": [
+        "didn't done",
+        "not did",
+        "did",
+        "done"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 78,
+    "type": "choose",
+    "data": {
+      "question": "Ted ___ a suit in a long time.",
+      "options": [
+        "didn't wear",
+        "hasn't worn",
+        "isn't wearing",
+        "has worn"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 79,
+    "type": "choose",
+    "data": {
+      "question": "___ inventory a little while ago.",
+      "options": [
+        "We took",
+        "We're taking",
+        "We've taken",
+        "We haven't taken"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 80,
+    "type": "choose",
+    "data": {
+      "question": "He ___ his medicine now.",
+      "options": [
+        "has taken",
+        "hasn't taken",
+        "has took",
+        "has to take"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 81,
+    "type": "choose",
+    "data": {
+      "question": "Has your son Ricky gone to bed yet? No, he ___.",
+      "options": [
+        "didn't",
+        "hasn't",
+        "isn't",
+        "haven't"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 82,
+    "type": "choose",
+    "data": {
+      "question": "Why hasn't Rita finished her report? She ___ had the time.",
+      "options": [
+        "doesn't",
+        "haven't",
+        "hasn't",
+        "didn't"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 83,
+    "type": "choose",
+    "data": {
+      "question": "Has Charlie bought apples this week? No. He ___ apples last week.",
+      "options": [
+        "has bought",
+        "bought",
+        "didn't buy",
+        "hasn't bought"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 84,
+    "type": "choose",
+    "data": {
+      "question": "Why isn't Helen going to do her laundry today? ___ it this week.",
+      "options": [
+        "She already done",
+        "She's already did",
+        "She hasn't done",
+        "She's already done"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 85,
+    "type": "choose",
+    "data": {
+      "question": "Have you ever been in the hospital? ___.",
+      "options": [
+        "Yes, I've been.",
+        "Yes, I was.",
+        "Yes, you have.",
+        "No, I haven't."
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 86,
+    "type": "choose",
+    "data": {
+      "question": "Have your parents met your new teacher yet? No. ___ met her yet.",
+      "options": [
+        "They didn't",
+        "They haven't",
+        "They don't want to",
+        "They've"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 87,
+    "type": "choose",
+    "data": {
+      "question": "Frank hasn't ___ gotten a raise.",
+      "options": [
+        "a long time",
+        "never",
+        "ever",
+        "now"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 88,
+    "type": "choose",
+    "data": {
+      "question": "Marty has drawn cartoons ___.",
+      "options": [
+        "for a long time",
+        "last summer",
+        "in a long time",
+        "all yesterday afternoon"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 89,
+    "type": "choose",
+    "data": {
+      "question": "Maria gave an excellent speech ___.",
+      "options": [
+        "now",
+        "yesterday evening",
+        "yet",
+        "next weekend"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 90,
+    "type": "choose",
+    "data": {
+      "question": "Betsy and Bob have ___ eaten with chopsticks.",
+      "options": [
+        "never",
+        "ever",
+        "yet",
+        "want to"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 91,
+    "type": "choose",
+    "data": {
+      "question": "Jimmy fell asleep in class ___.",
+      "options": [
+        "in a long time",
+        "now",
+        "already",
+        "this morning"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 92,
+    "type": "choose",
+    "data": {
+      "question": "Have you gone kayaking ___?",
+      "options": [
+        "ever",
+        "right now",
+        "yet",
+        "in a long time"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 93,
+    "type": "whats-the-word",
+    "data": {
+      "lines": [
+        "I see you haven't gone home _.",
+        "No. I _ finished typing an important letter.",
+        "My computer _ working well today.",
+        "It _ worked well all week.",
+        "Well, do you want to _ dinner together after work?",
+        "No, thanks. I've _ eaten dinner."
+      ],
+      "options": [
+        "haven't",
+        "hasn't",
+        "yet",
+        "already",
+        "have",
+        "wasn't"
+      ],
+      "correctOrder": [2, 0, 5, 1, 4, 3]
+    }
+  },
+  {
+    "id": 94,
+    "type": "choose",
+    "data": {
+      "question": "We've known each other ___ two months.",
+      "options": [
+        "for",
+        "since"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 95,
+    "type": "choose",
+    "data": {
+      "question": "Paula has studied Spanish ___ the past few years.",
+      "options": [
+        "for",
+        "since"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 96,
+    "type": "choose",
+    "data": {
+      "question": "Jim has owned a car ___ 2002.",
+      "options": [
+        "for",
+        "since"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 97,
+    "type": "choose",
+    "data": {
+      "question": "Mr. Wong has been in this country ___ he finished college.",
+      "options": [
+        "for",
+        "since"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 98,
+    "type": "choose",
+    "data": {
+      "question": "Mike and Elaine have had a dog ___ a year.",
+      "options": [
+        "for",
+        "since"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 99,
+    "type": "choose",
+    "data": {
+      "question": "I've been sick ___ last week.",
+      "options": [
+        "for",
+        "since"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 100,
+    "type": "choose",
+    "data": {
+      "question": "Paul ___ the piano since he was five.",
+      "options": [
+        "plays",
+        "has played",
+        "is playing",
+        "didn't play"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 101,
+    "type": "choose",
+    "data": {
+      "question": "Diane ___ the cello every day at three o'clock.",
+      "options": [
+        "practices",
+        "is practicing",
+        "hasn't practiced",
+        "has practice"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 102,
+    "type": "choose",
+    "data": {
+      "question": "Alexander, how long ___ in college?",
+      "options": [
+        "are you",
+        "you been",
+        "have you been",
+        "you be"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 103,
+    "type": "choose",
+    "data": {
+      "question": "Susan ___ classical music for a long time.",
+      "options": [
+        "is liking",
+        "likes",
+        "doesn't like",
+        "has liked"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 104,
+    "type": "choose",
+    "data": {
+      "question": "___ how to swim?",
+      "options": [
+        "How long did you know",
+        "Do you know",
+        "How long have you know",
+        "How long have you've known"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 105,
+    "type": "choose",
+    "data": {
+      "question": "Steve ___ in New York since last summer.",
+      "options": [
+        "is living",
+        "lived",
+        "lives",
+        "has lived"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 106,
+    "type": "choose",
+    "data": {
+      "question": "___ at Sam's Supermarket for a while?",
+      "options": [
+        "Did you worked",
+        "Have you worked",
+        "Do you work",
+        "Have you've worked"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 107,
+    "type": "choose",
+    "data": {
+      "question": "Victor ___ an engineer for a long time.",
+      "options": [
+        "been",
+        "is",
+        "has to want to be",
+        "has wanted to be"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 108,
+    "type": "choose",
+    "data": {
+      "question": "When ___ the manager?",
+      "options": [
+        "have you become",
+        "did you become",
+        "did you became",
+        "have you've become"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 109,
+    "type": "choose",
+    "data": {
+      "question": "Alice ___ to Los Angeles in 2003.",
+      "options": [
+        "has moved",
+        "hasn't moved",
+        "moved",
+        "have moved"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 110,
+    "type": "choose",
+    "data": {
+      "question": "I've been a science teacher for two years. Before that, ___ a math teacher.",
+      "options": [
+        "I've been",
+        "I was",
+        "I'm",
+        "I haven't been"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 111,
+    "type": "choose",
+    "data": {
+      "question": "Carla ___ to a movie in a long time.",
+      "options": [
+        "hasn't gone",
+        "didn't go",
+        "went",
+        "isn't going"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 112,
+    "type": "choose",
+    "data": {
+      "question": "Jonathan ___ from college two years ago.",
+      "options": [
+        "has graduated",
+        "graduated",
+        "graduates",
+        "will graduate"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 113,
+    "type": "choose",
+    "data": {
+      "question": "Mr. and Mrs. Evans ___ two car accidents recently.",
+      "options": [
+        "have",
+        "have had",
+        "are having",
+        "have to have"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 114,
+    "type": "choose",
+    "data": {
+      "question": "My daughter ___ interested in computers since she was a teenager.",
+      "options": [
+        "is",
+        "was",
+        "has been",
+        "been"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 115,
+    "type": "choose",
+    "data": {
+      "question": "How long ___ Gail been a doctor?",
+      "options": [
+        "did",
+        "has",
+        "have",
+        "is"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 116,
+    "type": "choose",
+    "data": {
+      "question": "William ___ skim milk all his life.",
+      "options": [
+        "has drunk",
+        "drinks",
+        "is drinking",
+        "has drank"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 117,
+    "type": "choose",
+    "data": {
+      "question": "Mario ___ a taxi driver for a few years. Before that, he was a barber.",
+      "options": [
+        "been",
+        "has",
+        "is",
+        "has been"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 118,
+    "type": "whats-the-word",
+    "data": {
+      "lines": [
+        "Hi, Henry. I haven't _ you at the office _ a few days.",
+        "How have you been?",
+        "As a matter of fact, I've been sick _ last Thursday.",
+        "Oh. I _ know that.",
+        "I think I got sick because I _ eaten any healthy food in a long time, and I _ exercise."
+      ],
+      "options": [
+        "since",
+        "for",
+        "haven't",
+        "didn't",
+        "don't",
+        "seen"
+      ],
+      "correctOrder": [5, 1, 0, 3, 2, 4]
+    }
+  },
+  {
+    "id": 119,
+    "type": "choose",
+    "data": {
+      "question": "Will Professor Bennett return soon? No. She won't return ___ several hours.",
+      "options": [
+        "until",
+        "for",
+        "in",
+        "since"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 120,
+    "type": "choose",
+    "data": {
+      "question": "How long has Eric studied French? He's studied French ___ he was in high school.",
+      "options": [
+        "for",
+        "until",
+        "since",
+        "because"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 121,
+    "type": "choose",
+    "data": {
+      "question": "Diane hurt herself while she ___ off a bus.",
+      "options": [
+        "was getting",
+        "gets",
+        "has gotten",
+        "is getting"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 122,
+    "type": "choose",
+    "data": {
+      "question": "How often ___ Laura compose poetry?",
+      "options": [
+        "has",
+        "does",
+        "was",
+        "is"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 123,
+    "type": "choose",
+    "data": {
+      "question": "Could you please give me ___ car keys?",
+      "options": [
+        "ours",
+        "you're",
+        "yours",
+        "your"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 124,
+    "type": "choose",
+    "data": {
+      "question": "Are these your books? No. They're ___.",
+      "options": [
+        "theirs",
+        "them",
+        "their",
+        "mine"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 125,
+    "type": "choose",
+    "data": {
+      "question": "___ do you and Larry go camping?",
+      "options": [
+        "How",
+        "Where",
+        "How often",
+        "Why"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 126,
+    "type": "choose",
+    "data": {
+      "question": "Do Bob and his wife own their own house? Yes. They've owned their own house ___ several years.",
+      "options": [
+        "since",
+        "because",
+        "until",
+        "for"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 127,
+    "type": "choose",
+    "data": {
+      "question": "Janet ___ this morning.",
+      "options": [
+        "has swum",
+        "swam",
+        "swum",
+        "hasn't swum"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 128,
+    "type": "choose",
+    "data": {
+      "question": "Can you come to ___ party this Saturday night?",
+      "options": [
+        "mine",
+        "ours",
+        "our",
+        "are"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 129,
+    "type": "choose",
+    "data": {
+      "question": "___ to the bank yet?",
+      "options": [
+        "Have you gone",
+        "Are you going",
+        "Can you go",
+        "Will you go"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 130,
+    "type": "choose",
+    "data": {
+      "question": "Why was Gary disappointed? He ___ very well this morning.",
+      "options": [
+        "wasn't teaching",
+        "didn't teach",
+        "hasn't taught",
+        "taught"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 131,
+    "type": "choose",
+    "data": {
+      "question": "Is Maria sick? Yes. ___ sick for more than a week.",
+      "options": [
+        "She's",
+        "She was",
+        "She's been",
+        "Will she be"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 132,
+    "type": "choose",
+    "data": {
+      "question": "Did you like the movie? Yes. It's one of the best movies ___.",
+      "options": [
+        "I've ever saw",
+        "I've ever seen",
+        "I've seen yet",
+        "I've already saw"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 133,
+    "type": "choose",
+    "data": {
+      "question": "___ Alice be able to come to our party next week?",
+      "options": [
+        "Can",
+        "Maybe",
+        "Do you think",
+        "Will"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 134,
+    "type": "choose",
+    "data": {
+      "question": "I've ___ done the laundry.",
+      "options": [
+        "already",
+        "ever",
+        "never",
+        "yet"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 135,
+    "type": "choose",
+    "data": {
+      "question": "Is Kim busy? Yes. She's ___ cookies.",
+      "options": [
+        "bakes",
+        "baked",
+        "baking",
+        "been baked"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 136,
+    "type": "choose",
+    "data": {
+      "question": "___ you taken the dog for a walk?",
+      "options": [
+        "Have",
+        "Can",
+        "Did",
+        "Will"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 137,
+    "type": "choose",
+    "data": {
+      "question": "Nancy and I ___ the lottery yet.",
+      "options": [
+        "have won",
+        "haven't won",
+        "aren't winning",
+        "won"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 138,
+    "type": "choose",
+    "data": {
+      "question": "Who ___ the students talking about the other day?",
+      "options": [
+        "are",
+        "have been",
+        "were",
+        "will"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 139,
+    "type": "choose",
+    "data": {
+      "question": "I have a lot of homework. I'll probably ___ all evening.",
+      "options": [
+        "will study",
+        "be studying",
+        "will be studying",
+        "won't study"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 140,
+    "type": "choose",
+    "data": {
+      "question": "What ___ yesterday afternoon?",
+      "options": [
+        "you read",
+        "have you read",
+        "were you reading",
+        "are you reading"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 141,
+    "type": "choose",
+    "data": {
+      "question": "What kind of car ___ Ms. Jackson ___ this afternoon?",
+      "options": [
+        "does ... buy",
+        "has ... bought",
+        "did ... buy",
+        "will ... buying"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 142,
+    "type": "choose",
+    "data": {
+      "question": "Is this Jerry's notebook? No. It's ___.",
+      "options": [
+        "our",
+        "mine",
+        "my",
+        "their"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 143,
+    "type": "choose",
+    "data": {
+      "question": "Bruce ___ probably going to practice football this afternoon.",
+      "options": [
+        "is",
+        "will",
+        "might",
+        "won't"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 144,
+    "type": "choose",
+    "data": {
+      "question": "Carla ___ seventeen e-mail messages this morning.",
+      "options": [
+        "is writing",
+        "writes",
+        "has wrote",
+        "has written"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 145,
+    "type": "choose",
+    "data": {
+      "question": "I'll call you sometime ___ week.",
+      "options": [
+        "next",
+        "last",
+        "in a",
+        "until a"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 146,
+    "type": "choose",
+    "data": {
+      "question": "Hector ___ been in a helicopter.",
+      "options": [
+        "hasn't never",
+        "has never",
+        "isn't ever",
+        "isn't yet"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 147,
+    "type": "choose",
+    "data": {
+      "question": "Susan ___ overtime last week.",
+      "options": [
+        "has worked",
+        "hasn't worked",
+        "works",
+        "worked"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 148,
+    "type": "choose",
+    "data": {
+      "question": "I'll probably ___ a taxi for another few years.",
+      "options": [
+        "have driven",
+        "will drive",
+        "be going to drive",
+        "be driving"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 149,
+    "type": "choose",
+    "data": {
+      "question": "Joe owned a restaurant ___.",
+      "options": [
+        "since 2001",
+        "for 2002",
+        "between 1999 and 2003",
+        "until next year"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 150,
+    "type": "choose",
+    "data": {
+      "question": "Mrs. Jenkins ___ our English teacher for the past year.",
+      "options": [
+        "was",
+        "has been",
+        "is",
+        "is been"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 151,
+    "type": "choose",
+    "data": {
+      "question": "Michelle ___ to music when the phone rang.",
+      "options": [
+        "listens",
+        "will be listening",
+        "has listened",
+        "was listening"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 152,
+    "type": "choose",
+    "data": {
+      "question": "Linda is an actress, but she ___ on TV yet.",
+      "options": [
+        "didn't go",
+        "wasn't",
+        "hasn't been",
+        "has been"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 153,
+    "type": "choose",
+    "data": {
+      "question": "Brian ___ while it ___ today.",
+      "options": [
+        "has hiked . . . was raining",
+        "was hiking . . . was raining",
+        "is hiking . . . is raining",
+        "doesn't hike . . . will be raining"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 154,
+    "type": "choose",
+    "data": {
+      "question": "___ you go scuba diving?",
+      "options": [
+        "When did",
+        "How often have",
+        "Where have",
+        "When will you"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 155,
+    "type": "choose",
+    "data": {
+      "question": "How long ___ interested in Chinese history?",
+      "options": [
+        "are you",
+        "have you been",
+        "did you be",
+        "you are"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 156,
+    "type": "choose",
+    "data": {
+      "question": "Jimmy ___ his car a week ago.",
+      "options": [
+        "washes",
+        "will be washing",
+        "has washed",
+        "washed"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 157,
+    "type": "choose",
+    "data": {
+      "question": "Tina ___ really looking forward to her vacation this year.",
+      "options": [
+        "has",
+        "will",
+        "is",
+        "not"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 158,
+    "type": "choose",
+    "data": {
+      "question": "Louis ___ to a concert in a long time.",
+      "options": [
+        "hasn't gone",
+        "didn't go",
+        "has gone",
+        "won't go"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 159,
+    "type": "choose",
+    "data": {
+      "question": "Mabel hasn't taken her medicine yet. She ___ it now.",
+      "options": [
+        "has taken",
+        "has to take",
+        "taking",
+        "already took"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 160,
+    "type": "choose",
+    "data": {
+      "question": "They won't see each other ___ next year.",
+      "options": [
+        "for",
+        "since",
+        "until",
+        "for"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 161,
+    "type": "which-word",
+    "data": {
+      "lines": [
+        {
+          "text": "Carlos _ to go skiing last weekend, but he injured _ while he _ in the woods.",
+          "options": [["has wanted", "wanted", "wants"], ["him", "hisself", "himself"], ["has hiked", "was hiking", "hiked"]],
+          "correctAnswers": [1, 2, 1]
+        },
+        {
+          "text": "_ then, he _ very bored because he has to stay in his room.",
+          "options": [
+            ["For", "By", "Since"],
+            ["is", "was", "has been"]
+          ],
+          "correctAnswers": [2, 2]
+        },
+        {
+          "text": "He has _ read several books, watched TV, and written some letters, but he still _ bored.",
+          "options": [
+            ["yet", "already", "still"],
+            ["was", "be", "feels"]
+          ],
+          "correctAnswers": [1, 2]
+        },
+        {
+          "text": "He's _ forward to this afternoon.",
+          "options": [["going", "looking", "thinking"]],
+          "correctAnswers": [1]
+        },
+        {
+          "text": "Some of his friends _ visit him, but none of them _ him yet.",
+          "options": [
+            ["will", "will be","are going"],
+            ["call", "calling", "have called"]
+          ],
+          "correctAnswers": [0, 2]
+        },
+        {
+          "text": "Luckily, the doctor says he'll feel better _ a few days.",
+          "options": [["until", "in", "for"]],
+          "correctAnswers": [1]
+        }
+      ]
+    }
+  },
+  {
+    "id": 162,
+    "type": "choose",
+    "data": {
+      "question": "What have you been doing? ___ pictures all day.",
+      "options": [
+        "I'm drawing",
+        "I've been drawing",
+        "I drew",
+        "I drawn"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 163,
+    "type": "choose",
+    "data": {
+      "question": "Where are your neighbors going for their vacation? I think ___ to Hawaii.",
+      "options": [
+        "they've been going",
+        "they go",
+        "they're going",
+        "they've been gone"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 164,
+    "type": "choose",
+    "data": {
+      "question": "How long has Denise been doing sit-ups? ___ for a half hour.",
+      "options": [
+        "She's doing them",
+        "She did them",
+        "They've been doing her",
+        "She's been doing them"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 165,
+    "type": "choose",
+    "data": {
+      "question": "How many notes have you written? ___ more than fifty.",
+      "options": [
+        "I'm already writing",
+        "I've already written",
+        "I'm already writing",
+        "I've already been written"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 166,
+    "type": "choose",
+    "data": {
+      "question": "Have we been in line for a long time? No. ___ here for only ten minutes.",
+      "options": [
+        "We're",
+        "We've been standing",
+        "We stood",
+        "We're standing"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 167,
+    "type": "choose",
+    "data": {
+      "question": "How long did Carl work at the post office? ___ there for thirty years.",
+      "options": [
+        "He's been working",
+        "He's worked",
+        "He's working",
+        "He worked"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 168,
+    "type": "choose",
+    "data": {
+      "question": "Mario is exhausted. ___ pizzas since ten o'clock.",
+      "options": [
+        "He's making",
+        "He's been making",
+        "He made",
+        "He'll make"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 169,
+    "type": "choose",
+    "data": {
+      "question": "Sally is frustrated. She ___ her keys for hours.",
+      "options": [
+        "has been looking for",
+        "is looking for",
+        "looks for",
+        "has been looked for"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 170,
+    "type": "choose",
+    "data": {
+      "question": "My sisters and I ___ in the marathon next weekend.",
+      "options": [
+        "have been running",
+        "are going to run",
+        "have run",
+        "didn't run"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 171,
+    "type": "choose",
+    "data": {
+      "question": "That police officer ___ already ___ traffic for seven hours today.",
+      "options": [
+        "has . . . directing",
+        "has been . . . directed",
+        "has . . . directed",
+        "is . . . directing"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 172,
+    "type": "choose",
+    "data": {
+      "question": "Victor ___ photographs since nine o'clock this morning.",
+      "options": [
+        "is taking",
+        "already takes",
+        "has already taken",
+        "has been taking"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 173,
+    "type": "choose",
+    "data": {
+      "question": "Thelma has never ___ to so many job interviews in one week before.",
+      "options": [
+        "went",
+        "gone",
+        "go",
+        "been going"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 174,
+    "type": "choose",
+    "data": {
+      "question": "Our roof has been leaking for ___.",
+      "options": [
+        "two days",
+        "this morning",
+        "today",
+        "yesterday morning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 175,
+    "type": "choose",
+    "data": {
+      "question": "The phone has been ringing ___.",
+      "options": [
+        "yesterday",
+        "all night",
+        "a few minutes ago",
+        "nine o'clock"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 176,
+    "type": "choose",
+    "data": {
+      "question": "I've ___ eaten a lot of apples today.",
+      "options": [
+        "never",
+        "already",
+        "been",
+        "still"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 177,
+    "type": "choose",
+    "data": {
+      "question": "It's been raining for ___.",
+      "options": [
+        "a week",
+        "all day",
+        "an hour ago",
+        "yesterday afternoon"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 178,
+    "type": "choose",
+    "data": {
+      "question": "We've been waiting since ___.",
+      "options": [
+        "a few hours",
+        "9:30",
+        "15 minutes",
+        "half an hour"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 179,
+    "type": "choose",
+    "data": {
+      "question": "My cousins haven't written to me for ___.",
+      "options": [
+        "only last week",
+        "last month",
+        "a long time",
+        "I moved to Chicago"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 180,
+    "type": "choose",
+    "data": {
+      "question": "I haven't met anyone interesting since ___.",
+      "options": [
+        "a long time",
+        "all year",
+        "many years",
+        "I graduated from college"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 181,
+    "type": "choose",
+    "data": {
+      "question": "Rick hasn't practiced the guitar ___.",
+      "options": [
+        "all week",
+        "a week",
+        "a week ago",
+        "yesterday morning"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 182,
+    "type": "choose",
+    "data": {
+      "question": "Jane ___ hasn't gone to the doctor.",
+      "options": [
+        "already",
+        "never",
+        "yet",
+        "still"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 183,
+    "type": "choose",
+    "data": {
+      "question": "Have they been working ___ night?",
+      "options": [
+        "all",
+        "last",
+        "tomorrow",
+        "yesterday"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 184,
+    "type": "choose",
+    "data": {
+      "question": "Gary has been exercising for ___ an hour.",
+      "options": [
+        "more",
+        "about",
+        "already",
+        "before"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 185,
+    "type": "which-word",
+    "data": {
+      "lines": [
+        {
+          "text": "I've been feeling _ recently.",
+          "options": [["nervous", "furious", "angry"]],
+          "correctAnswers": [0]
+        },
+        {
+          "text": "I've _ on a motorcycle, and I'm going to ride on one _.",
+          "options": [
+            ["never riding", "ever ridden", "never ridden"],
+            ["tomorrow", "before", "about an hour"]
+          ],
+          "correctAnswers": [2, 0]
+        },
+        {
+          "text": "Don't be nervous. I've _ on motorcycles for many years.",
+          "options": [["been ridden", "been riding", "riding"]],
+          "correctAnswers": [1]
+        },
+        {
+          "text": "Really? _ you ever _ in an accident?",
+          "options": [
+            ["Did", "Were", "Have"],
+            ["been", "be", "being"]
+          ],
+          "correctAnswers": [2, 0]
+        },
+        {
+          "text": "No. Never",
+          "options": [[]],
+          "correctAnswers": []
+        }
+      ]
+    }
+  },
+  {
+    "id": 186,
+    "type": "choose",
+    "data": {
+      "question": "Does your sister ___ to play tennis?",
+      "options": [
+        "practice",
+        "enjoy",
+        "like",
+        "think about"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 187,
+    "type": "choose",
+    "data": {
+      "question": "Timothy usually avoids ___ at fast-food restaurants.",
+      "options": [
+        "to eat",
+        "eat",
+        "going",
+        "eating"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 188,
+    "type": "choose",
+    "data": {
+      "question": "Your son ___ going to bed earlier.",
+      "options": [
+        "doesn't like to",
+        "should start",
+        "has always hating",
+        "should decide"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 189,
+    "type": "choose",
+    "data": {
+      "question": "I've been ___ to do karate since I was ten years old.",
+      "options": [
+        "keeping on",
+        "thinking",
+        "learning",
+        "considering"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 190,
+    "type": "choose",
+    "data": {
+      "question": "James and Margaret don't ___ standing in line.",
+      "options": [
+        "like to",
+        "decide",
+        "can't stand",
+        "enjoy"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 191,
+    "type": "choose",
+    "data": {
+      "question": "Our dog ___ sleeping all the time.",
+      "options": [
+        "likes to",
+        "keeps on",
+        "been",
+        "quits"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 192,
+    "type": "choose",
+    "data": {
+      "question": "She's ___ eating too much junk food.",
+      "options": [
+        "keeps on",
+        "been",
+        "doesn't enjoy",
+        "continues"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 193,
+    "type": "choose",
+    "data": {
+      "question": "Have you ever tried ___ your nails before?",
+      "options": [
+        "to quit to bite",
+        "to bite to quit",
+        "quit to bite",
+        "to quit biting"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 194,
+    "type": "choose",
+    "data": {
+      "question": "Jane ___ moving to New York.",
+      "options": [
+        "decided",
+        "can't stood",
+        "considered",
+        "has thought"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 195,
+    "type": "choose",
+    "data": {
+      "question": "How long have you been ___ going on a diet?",
+      "options": [
+        "deciding",
+        "avoiding",
+        "thinking",
+        "to consider"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 196,
+    "type": "choose",
+    "data": {
+      "question": "You can't ___ for the rest of your life.",
+      "options": [
+        "keep on to complain",
+        "to continue to complain",
+        "continue complaining",
+        "complaining"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 197,
+    "type": "choose",
+    "data": {
+      "question": "Why did you ___ wearing a tie and jacket when you were young?",
+      "options": [
+        "learn",
+        "hate",
+        "decide",
+        "start to"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 198,
+    "type": "choose",
+    "data": {
+      "question": "I've decided ___ teasing my little brother.",
+      "options": [
+        "to stop",
+        "stopping",
+        "stop",
+        "stopping to"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 199,
+    "type": "choose",
+    "data": {
+      "question": "I think ___ on a diet is a great idea.",
+      "options": [
+        "go",
+        "going",
+        "be",
+        "gone"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 200,
+    "type": "choose",
+    "data": {
+      "question": "I'm thinking about ___ married.",
+      "options": [
+        "getting",
+        "to get",
+        "been",
+        "get"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 201,
+    "type": "choose",
+    "data": {
+      "question": "How long have you ___ a piano?",
+      "options": [
+        "been thinking to buy",
+        "thought to buy",
+        "considering buying",
+        "been thinking of buying"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 202,
+    "type": "choose",
+    "data": {
+      "question": "Kathy loves her cell phone. That's why she can't stop ___ it.",
+      "options": [
+        "to use",
+        "using",
+        "use",
+        "to like"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 203,
+    "type": "choose",
+    "data": {
+      "question": "___ people is very rude.",
+      "options": [
+        "Interrupt",
+        "Avoid saying hello to",
+        "Interrupting",
+        "Talk about"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 204,
+    "type": "choose",
+    "data": {
+      "question": "I've never been ___ before.",
+      "options": [
+        "swum",
+        "to swim",
+        "swimming",
+        "be swimming"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 205,
+    "type": "choose",
+    "data": {
+      "question": "___ very difficult?",
+      "options": [
+        "Doesn't surfing be",
+        "Isn't surfing",
+        "Does surfing be",
+        "To surf is"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 206,
+    "type": "choose",
+    "data": {
+      "question": "Albert ___ to travel to Europe by plane next week.",
+      "options": [
+        "is going",
+        "will be",
+        "is thinking",
+        "might consider"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 207,
+    "type": "choose",
+    "data": {
+      "question": "George ___ his exercises in a long time.",
+      "options": [
+        "didn't do",
+        "hasn't done",
+        "has been doing",
+        "has been thinking about doing"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 208,
+    "type": "choose",
+    "data": {
+      "question": "___ very difficult?",
+      "options": [
+        "Doesn't surfing be",
+        "Isn't surfing",
+        "Does surfing be",
+        "To surf is"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 209,
+    "type": "choose",
+    "data": {
+      "question": "She ___ the house all day.",
+      "options": [
+        "has cleaned",
+        "was cleaning",
+        "is cleaning",
+        "has been cleaning"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 210,
+    "type": "choose",
+    "data": {
+      "question": "I've been ___ to go to the beach.",
+      "options": [
+        "be",
+        "been",
+        "being",
+        "have been"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 211,
+    "type": "whats-the-word",
+    "data": {
+      "lines": [
+        "Guess what I've decided _!",
+        "I've decided _ my job.",
+        "I can't stand _ at my company.",
+        "I don't think I can stand _ there every day.",
+        "I've been considering _ my own business.",
+        "How long have you been thinking about _ that?"
+      ],
+      "options": [
+        "to do",
+        "working",
+        "starting",
+        "to quit",
+        "doing",
+        "to go"
+      ],
+      "correctOrder": [0, 3, 1, 5, 2, 4]
+    }
+  },
+  {
+    "id": 212,
+    "type": "choose",
+    "data": {
+      "question": "Why didn't your parents go to the movies last night? They ___ a movie the night before.",
+      "options": [
+        "didn't see",
+        "had been seeing",
+        "had seen",
+        "have seen"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 213,
+    "type": "choose",
+    "data": {
+      "question": "What was Mrs. Lee doing in her garden this morning? She ___ her plants.",
+      "options": [
+        "was watering",
+        "had been watering",
+        "had watered",
+        "has watered"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 214,
+    "type": "choose",
+    "data": {
+      "question": "Why was Albert so tired last night? ___ all day.",
+      "options": [
+        "He's been skiing",
+        "He's skied",
+        "He had skied",
+        "He's skiing"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 215,
+    "type": "choose",
+    "data": {
+      "question": "By the time I got there, the game ___.",
+      "options": [
+        "had already started",
+        "started",
+        "had been starting",
+        "has started"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 216,
+    "type": "choose",
+    "data": {
+      "question": "Did Helen enjoy discussing politics last night? Yes. She ___ politics in a long time.",
+      "options": [
+        "hadn't been discussed",
+        "had discussed",
+        "didn't discuss",
+        "hadn't discussed"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 217,
+    "type": "choose",
+    "data": {
+      "question": "Has Pamela ever been to Paris? Yes. She ___ there last year.",
+      "options": [
+        "had gone",
+        "went",
+        "has gone",
+        "had been going"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 218,
+    "type": "choose",
+    "data": {
+      "question": "Why did Sam have trouble flying a kite last weekend? ___ never flown one before.",
+      "options": [
+        "He had",
+        "He",
+        "He hadn't",
+        "He's"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 219,
+    "type": "choose",
+    "data": {
+      "question": "Harry's wife had already finished eating dinner when he ___ home.",
+      "options": [
+        "had come",
+        "was coming",
+        "came",
+        "has come"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 220,
+    "type": "choose",
+    "data": {
+      "question": "James ___ that his shirt was dirty until after dinner.",
+      "options": [
+        "realized",
+        "hadn't realized",
+        "hasn't realized",
+        "wasn't realizing"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 221,
+    "type": "choose",
+    "data": {
+      "question": "Jane ___ for just a few minutes before she got tired.",
+      "options": [
+        "had been swimming",
+        "has swum",
+        "is swimming",
+        "has been swimming"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 222,
+    "type": "choose",
+    "data": {
+      "question": "Jeffrey has a job interview today. He ___ his shoes for an hour.",
+      "options": [
+        "had been shining",
+        "is shining",
+        "shines",
+        "has been shining"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 223,
+    "type": "choose",
+    "data": {
+      "question": "How long ___ for your dinner party last weekend?",
+      "options": [
+        "had you prepared",
+        "hadn't you been preparing",
+        "have you been preparing",
+        "you prepared"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 224,
+    "type": "choose",
+    "data": {
+      "question": "Mona hadn't ___ in a long time.",
+      "options": [
+        "thought about",
+        "gone fishing",
+        "brought along",
+        "deserved"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 225,
+    "type": "choose",
+    "data": {
+      "question": "By the time I got there, the boat had ___.",
+      "options": [
+        "taken off",
+        "begun",
+        "sailed away",
+        "ended"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 226,
+    "type": "choose",
+    "data": {
+      "question": "Jim had been ___ for the concert for a long time.",
+      "options": [
+        "rehearsing",
+        "wrestling",
+        "realizing",
+        "performing"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 227,
+    "type": "choose",
+    "data": {
+      "question": "She really ___ to win the race.",
+      "options": [
+        "described",
+        "discussed",
+        "dislocated",
+        "deserved"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 228,
+    "type": "choose",
+    "data": {
+      "question": "Roger hadn't ___ to lock his front door.",
+      "options": [
+        "believed",
+        "memorized",
+        "remembered",
+        "felt"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 229,
+    "type": "choose",
+    "data": {
+      "question": "I hadn't ___ through that park in a year.",
+      "options": [
+        "fallen",
+        "walked",
+        "brought",
+        "caught"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 230,
+    "type": "odd-one-out",
+    "data": {
+      "question": "Which word doesn't belong?",
+      "options": ["go canoeing", "water plants", "see a movie", "fly a kite"],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 231,
+    "type": "odd-one-out",
+    "data": {
+      "question": "Which word doesn't belong?",
+      "options": ["practice", "train", "rehearse", "perform"],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 232,
+    "type": "odd-one-out",
+    "data": {
+      "question": "Which word doesn't belong?",
+      "options": ["swim", "play the guitar", "do gymnastics", "wrestle"],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 233,
+    "type": "odd-one-out",
+    "data": {
+      "question": "Which word doesn't belong?",
+      "options": ["forget", "memorize", "remember", "learn"],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 234,
+    "type": "odd-one-out",
+    "data": {
+      "question": "Which word doesn't belong?",
+      "options": ["prepare", "plan", "fall through", "get ready"],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 235,
+    "type": "odd-one-out",
+    "data": {
+      "question": "Which word doesn't belong?",
+      "options": ["lose", "sprain", "twist", "break"],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 236,
+    "type": "which-word",
+    "data": {
+      "lines": [
+        {
+          "text": "Have you heard about Jennifer and Jack? No, I _.",
+          "options": [["didn't", "hadn't", "haven't"]],
+          "correctAnswers": [2]
+        },
+        {
+          "text": "What _?",
+          "options": [["had happened", "is happened", "happened"]],
+          "correctAnswers": [2]
+        },
+        {
+          "text": "They _ up last weekend.",
+          "options": [["had broken", "broke", "were breaking"]],
+          "correctAnswers": [1]
+        },
+        {
+          "text": "Jennifer got a job in London, and she decided _ it",
+          "options": [["taking", "take to", "to take"]],
+          "correctAnswers": [2]
+        },
+        {
+          "text": "That's a shame. They _ going out for a long time.",
+          "options": [["weren't", "had been", "been"]],
+          "correctAnswers": [1]
+        },
+        {
+          "text": "Yes... and some told me they had even _ about getting married.",
+          "options": [["been thinking", "considered", "decided"]],
+          "correctAnswers": [0]
+        }
+      ]
+    }
+  },
+  {
+    "id": 237,
+    "type": "choose",
+    "data": {
+      "question": "I didn't drink the old milk in the refrigerator. I ___ it out.",
+      "options": [
+        "threw",
+        "filled",
+        "crossed",
+        "turned"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 238,
+    "type": "choose",
+    "data": {
+      "question": "It's late, and Dave is still sleeping. We need to ___ him up.",
+      "options": [
+        "take",
+        "use",
+        "wake",
+        "put"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 239,
+    "type": "choose",
+    "data": {
+      "question": "It's cold in here. Could you ___ the heat on?",
+      "options": [
+        "call",
+        "turn",
+        "try",
+        "give"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 240,
+    "type": "choose",
+    "data": {
+      "question": "What does this word mean? You should ___ in a dictionary.",
+      "options": [
+        "do it over",
+        "look it up",
+        "write it down",
+        "pick it out"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 241,
+    "type": "choose",
+    "data": {
+      "question": "Howard forgot my phone number because he hadn't ___ it down.",
+      "options": [
+        "done",
+        "turned",
+        "filled",
+        "written"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 242,
+    "type": "choose",
+    "data": {
+      "question": "Lucy ___ off her husband at the train station this morning.",
+      "options": [
+        "ran",
+        "dropped",
+        "took",
+        "threw"
+      ],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id": 243,
+    "type": "choose",
+    "data": {
+      "question": "Has Peter ___ up his new computer yet?",
+      "options": [
+        "used",
+        "looked",
+        "hooked",
+        "hung"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 244,
+    "type": "choose",
+    "data": {
+      "question": "Do you like this sweater? Yes. I think you should ___.",
+      "options": [
+        "try it on",
+        "bring it back",
+        "get along with it",
+        "put it away"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 245,
+    "type": "choose",
+    "data": {
+      "question": "Is Harry finished with the newspaper? No. You should ___ it.",
+      "options": [
+        "put it on",
+        "throw it away",
+        "look it through",
+        "take it off"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 246,
+    "type": "choose",
+    "data": {
+      "question": "Has Sally read these library books? Yes. She should ___ to the library.",
+      "options": [
+        "take after them",
+        "put them away",
+        "take them back",
+        "throw them away"
+      ],
+      "correctAnswer": 2
+    }
+  },
+  {
+    "id": 247,
+    "type": "choose",
+    "data": {
+      "question": "Have you seen my glasses? You should ___ them in your room.",
+      "options": [
+        "run into",
+        "look up",
+        "put on",
+        "look for"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 248,
+    "type": "choose",
+    "data": {
+      "question": "Has Johnny finished his homework? Yes. He's going to ___ now.",
+      "options": [
+        "hand it in",
+        "figure it out",
+        "get over it",
+        "turn it on"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 249,
+    "type": "choose",
+    "data": {
+      "question": "Gloria's children definitely take ___.",
+      "options": [
+        "after her",
+        "her after",
+        "them after",
+        "on them"
+      ],
+      "correctAnswer": 0
+    }
+  },
+  {
+    "id": 250,
+    "type": "choose",
+    "data": {
+      "question": "Brian moved to Chicago last month. Has anybody ___?",
+      "options": [
+        "heard him from",
+        "heard from him",
+        "heard from",
+        "heard him"
+      ],
+      "correctAnswer": 1
+    }
+  }
+]

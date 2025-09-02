@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "type": "choose",
+    "data": {
+      "question": "My sister ___ to watch TV.",
+      "options": [
+        "don't like to watch",
+        "like to watch",
+        "doesn't like watch",
+        "doesn't like to watch"
+      ],
+      "correctAnswer": 3
+    }
+  },
+  {
+    "id": 2,
+    "type": "which-word",
+    "data": {
+      "lines": [
+        {
+          "text": "_ to swim?",
+          "options": [["You like", "do like you", "do you like"]],
+          "correctAnswers": [2]
+        },
+        {
+          "text": "_ because she _",
+          "options": [
+            ["all time", "right now", "all the time"],
+            ["likes", "wants", "can"]
+          ],
+          "correctAnswers": [2, 0]
+        }
+      ]
+    }
+  },
+  {
+    "id": 3,
+    "type": "whats-the-word",
+    "data": {
+      "lines": [
+        "Peter didn't _ the piano last night.",
+        "In fact, he _ very badly."
+      ],
+      "options": [
+        "play",
+        "didn't",
+        "was",
+        "played",
+        "taking",
+        "wasn't"
+      ],
+      "correctOrder": [0, 2]
+    }
+  },
+  {
+    "id": 4,
+    "type": "odd-one-out",
+    "data": {
+      "question": "Which word doesn’t belong?",
+      "options": ["stubborn", "polite", "mean", "lazy"],
+      "correctAnswer": 1
+    }
+  },
+  {
+    "id":5,
+    "type": "choose",
+    "data": {
+      "question": "My sister ___ to watch TV.",
+      "options": [
+        "don't like to watch",
+        "like to watch",
+        "doesn't like watch",
+        "doesn't like to watch"
+      ],
+      "correctAnswer": 3
+    }
+  }
+]
