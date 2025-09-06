@@ -63,14 +63,14 @@ export function buildAnswerMap(test: TestType) {
 }
 
 
-export const sliceTest = (test : TestType, questions : number) => {
+export const sliceTest = (test : TestType, questions : number, start=0) => {
   if (questions === 999) return [test]
   
   const tests = []
 
   const length = Math.ceil(test.length / questions)
 
-  let count = 0
+  let count = start
   for (let i = 0; i < length; i++) {
     tests.push(test.slice(count, count + questions))
     count += questions

@@ -7,19 +7,39 @@ export const TestForm = () => {
 
   const testQuestionsOptions = [5, 10, 15, 20, 25, 30, 40, 50, 100]
   const [optionValue, setOptionValue] = useState<number>()
-  const [errorMessage, setErrorMessage] = useState('')
+  const [startValue, setStartValue] = useState<number>()
+  // const [errorMessage, setErrorMessage] = useState('')
+
+  const [errorMessage, setErrorMessage] = useState({
+    questions: '',
+    startFrom: ''
+  })
+  
+
   const [showToast, setShowToast] = useState(false)
 
+  const chapters = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
   const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    e.preventDefault()
-    const numberValue = Number(e.target.value)
-    setOptionValue(numberValue)
-    setErrorMessage((prev) => (e.target.value ? '' : prev))
+    if(e.target.id === 'test-questions') {
+      e.preventDefault()
+      const numberValue = Number(e.target.value)
+      setOptionValue(numberValue)
+      setErrorMessage((prev) => (e.target.value ? {...prev, questions: ''} : prev))
+    }
+    
+    if(e.target.id === 'start-from') {
+      e.preventDefault()
+      const numberValue = Number(e.target.value)
+      setStartValue(numberValue)
+      setErrorMessage((prev) => (e.target.value ? {...prev, startFrom: ''} : prev))
+    }
   }
 
   const handleSumbit = (e: React.FormEvent) => {
     e.preventDefault()
-    if (!optionValue) return setErrorMessage('Elige una opcion')
+    if (!optionValue) return setErrorMessage(prev => ({...prev, questions: 'Elige una opcion'}))
+    if (!startValue) return setErrorMessage(prev => ({...prev, startFrom: 'Elige una opcion'}))
     setTestQuestions(optionValue)
     setShowToast(true)
   }
@@ -33,7 +53,7 @@ export const TestForm = () => {
           <div>
             <Label
               htmlFor='test-questions'
-              color={errorMessage ? 'failure' : 'gray'}
+              color={errorMessage.questions ? 'failure' : 'gray'}
             >
               Selecciona cuantas preguntas quieres
             </Label>
@@ -42,7 +62,7 @@ export const TestForm = () => {
               id='test-questions'
               value={optionValue}
               onChange={handleChange}
-              color={errorMessage ? 'failure' : 'gray'}
+              color={errorMessage.questions ? 'failure' : 'gray'}
             >
               <option value=''>Selecciona</option>
               <option value={999}>Todas las preguntas</option>
@@ -52,7 +72,28 @@ export const TestForm = () => {
                 </option>
               ))}
             </Select>
-            {errorMessage && <HelperText>{errorMessage}</HelperText>}
+            {errorMessage && <HelperText>{errorMessage.questions}</HelperText>}
+            <Label htmlFor='start-from' color={errorMessage.startFrom ? 'failure' : 'gray'} >
+              Elige desde donde quieres empezar
+            </Label>
+            <Select
+              color={errorMessage.startFrom ? 'failure' : 'gray'}
+              id='start-from'
+              onChange={handleChange}
+              value={startValue}
+            >
+              <option value=''>Selecciona</option>
+              {
+                chapters.map((ch) => {
+                  return (
+                    <option key={ch} value={(25 * ch) + 1}>
+                      Chapter {ch}
+                    </option>
+                  )
+                })
+              }
+            </Select>
+            { errorMessage.startFrom && <HelperText>{errorMessage.startFrom}</HelperText>}
           </div>
           <Button type='submit' className='max-w-max'>
             Continuar

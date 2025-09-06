@@ -3,7 +3,7 @@
     "id": 1,
     "type": "choose",
     "data": {
-      "question": "My sister ___ to watch TV.",
+      "question": "My sister _ TV.",
       "options": [
         "don't like to watch",
         "like to watch",

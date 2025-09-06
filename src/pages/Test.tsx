@@ -12,6 +12,7 @@ import type { TestType } from '../types'
 
 const Test = () => {
   const [testQuestions, setTestQuestions] = useState<number>(-1)
+  const [startFrom, setStartFrom] = useState<number>(-1)
   const [testArr, setTestArr] = useState<TestType[]>([]) 
   const tabsRef = useRef<TabsRef>(null)
   const [, setCurrentTab] = useState(0)
@@ -22,7 +23,7 @@ const Test = () => {
   
   useEffect(() => {
     const selectedTest = testNumber === 1 ? test_1 : test_2 
-    const tests = sliceTest(selectedTest as TestType, testQuestions)
+    const tests = sliceTest(selectedTest as TestType, testQuestions, startFrom)
     // console.log(sliceTest(selectedTest, 10))
     setTestArr(tests)
   },[testQuestions, testNumber]) 
@@ -35,6 +36,7 @@ const Test = () => {
     <testContext.Provider value={{
       testQuestions,
       setTestQuestions,
+      setStartFrom,
       tabsRef
     }}>
       <Tabs aria-label='Default tabs' variant='default' theme={{tablist: { variant: { default: "flex-nowrap overflow-x-scroll" }}}} ref={tabsRef} onActiveTabChange={(tab) => setCurrentTab(tab)}>
