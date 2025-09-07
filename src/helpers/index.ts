@@ -67,7 +67,7 @@ export const sliceTest = (test: TestType, questions: number, start: number) => {
 
     const tests = [];
 
-    const length = Math.ceil(test.length / questions);
+    const length = Math.ceil(test.slice(start).length / questions);
 
     let count = start === -1 ? 0 : start;
 
@@ -76,7 +76,5 @@ export const sliceTest = (test: TestType, questions: number, start: number) => {
         count += questions;
     }
 
-    console.log(`Start index:${start}, Questions: ${questions}`)
-    console.log(tests)
     return tests;
 };

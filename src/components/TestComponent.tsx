@@ -16,7 +16,6 @@ import {
 import { Chart } from '../components/Chart'
 import { useTest } from '../hooks/useTest'
 import { useTestContext } from '../hooks/useTestContext'
-import { TestAlert } from './TestAlert'
 //import test_book_2 from '../assets/test_book2.json'
 type TestComponentProps = {
   currentTest: TestType
@@ -134,7 +133,7 @@ export default function TestComponent({ currentTest, testId, isLast } : TestComp
           </Button>
         </ModalFooter>
       </Modal>
-      <TestAlert />
+      
     </div>
   )
 }

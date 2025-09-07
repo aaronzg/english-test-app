@@ -1,6 +1,6 @@
 import { Button, HelperText, Label, Select } from "flowbite-react";
 import { Toast } from "./Toast";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useTestContext } from "../hooks/useTestContext";
 export const TestForm = () => {
   const { setTestQuestions, setStartFrom, tabsRef } = useTestContext();
@@ -18,7 +18,18 @@ export const TestForm = () => {
   const [showToast, setShowToast] = useState(false);
 
   const chapters = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
-  const chapterIdx = [0, 23, 48, 73, 98, 121, 146, 170, 195, 241, 266, 290, 315, 340, 365]
+  const chapterIdx = [
+    0, 23, 48, 73, 98, 121, 146, 170, 195, 241, 266, 290, 315, 340, 365,
+  ];
+
+  useEffect(() => {
+    const local = localStorage.getItem("initial-values");
+    if (local) {
+      const values = JSON.parse(local);
+      setOptionValue(values.optionValue);
+      setStartValue(values.startValue);
+    }
+  }, []);
 
   const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     if (e.target.id === "test-questions") {
@@ -33,7 +44,6 @@ export const TestForm = () => {
     if (e.target.id === "start-from") {
       e.preventDefault();
       const numberValue = Number(e.target.value);
-      console.log(numberValue)
       setStartValue(numberValue);
       setErrorMessage((prev) =>
         e.target.value ? { ...prev, startFrom: "" } : prev
@@ -55,6 +65,11 @@ export const TestForm = () => {
       }));
     setTestQuestions(optionValue);
     setStartFrom(startValue);
+
+    localStorage.setItem(
+      "initial-values",
+      JSON.stringify({ optionValue, startValue })
+    );
     setShowToast(true);
   };
 
@@ -94,6 +109,7 @@ export const TestForm = () => {
               Elige desde donde quieres empezar
             </Label>
             <Select
+              className="mt-1 md:max-w-2/3"
               color={errorMessage.startFrom ? "failure" : "gray"}
               id="start-from"
               onChange={handleChange}
