@@ -91,7 +91,6 @@ export default function TestComponent({ currentTest, testId, isLast } : TestComp
         <answersContext.Provider value={{ errors }}>
           {currentTest.map((question, idx) => {
             const { id } = question
-
             if (question.type === 'choose') {
               return (
                 <Choose data={question.data} id={id} key={idx} onAnswer={handleAnswer} />

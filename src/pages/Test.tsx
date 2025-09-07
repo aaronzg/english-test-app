@@ -26,7 +26,7 @@ const Test = () => {
     const tests = sliceTest(selectedTest as TestType, testQuestions, startFrom)
     // console.log(sliceTest(selectedTest, 10))
     setTestArr(tests)
-  },[testQuestions, testNumber]) 
+  },[testQuestions, startFrom, testNumber]) 
 
   if (testNumber < 1 || testNumber > 2 || !testNumber) {
     return <NotFound />
