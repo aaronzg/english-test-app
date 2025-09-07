@@ -1728,7 +1728,7 @@
         },
         {
           "text": "I _ . I think the people in Westerly are much friendlier.",
-          "options": [["I agree", "I think so", "I disagree"]],
+          "options": [["agree", "think so", "disagree"]],
           "correctAnswers": [2]
         },
         {
@@ -1737,8 +1737,8 @@
           "correctAnswers": [0]
         },
         {
-          "text": "But Westerly is _ exciting as Easterly.",
-          "options": [["as", "isn't", "isn't as"]],
+          "text": "But Westerly _ exciting as Easterly.",
+          "options": [["is as", "isn't", "isn't as"]],
           "correctAnswers": [2]
         },
         {
@@ -2750,13 +2750,13 @@
       "lines": [
         {
           "text": "My brother-in-law Richard works too _.",
-          "options": [["quick", "quickly", "fastly"]],
+          "options": [["slowly", "quick", "slow"]],
           "correctAnswers": [0]
         },
         {
-          "text": "I think he should _.",
-          "options": [["work", "more fast", "more quickly"]],
-          "correctAnswers": [2]
+          "text": "I think he should work _.",
+          "options": [["more fast", "more quickly", "more faster"]],
+          "correctAnswers": [1]
         },
         {
           "text": "If he does that, his supervisor _ fire him.",
@@ -3123,7 +3123,7 @@
         "Will",
         "We"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 0
     }
   },
   {
@@ -3979,7 +3979,7 @@
         "I've got to",
         "I got"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 0
     }
   },
   {
@@ -4114,13 +4114,13 @@
     "data": {
       "lines": [
         {
-          "text": "A. Hello. You _ should got to send someone to fix my kitchen sink.",
-          "options": [["have", "can't", "have got to"]],
-          "correctAnswers": [2]
+          "text": "A. Hello. You _ to send someone to fix my kitchen sink.",
+          "options": [["have", "should", "got"]],
+          "correctAnswers": [0]
         },
         {
           "text": "There's water everywhere, and I've _ get to work!",
-          "options": [["can't", "have got to", "able"]],
+          "options": [["can't", "have", "got"]],
           "correctAnswers": [1]
         },
         {
@@ -4139,8 +4139,8 @@
           "correctAnswers": [2]
         },
         {
-          "text": "I _ send a repairperson for a few more hours.",
-          "options": [["won't", "can't", "able to"]],
+          "text": "I won't _ to send a repairperson for a few more hours.",
+          "options": [["can't", "able to", "be able"]],
           "correctAnswers": [1]
         }
       ]
@@ -4221,7 +4221,7 @@
         "fewer",
         "less"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 1
     }
   },
   {
@@ -4863,9 +4863,9 @@
           "correctAnswers": [0]
         },
         {
-          "text": "B. She'll be _ here _ a few hours.",
+          "text": "B. She'll be _  _ a few hours.",
           "options": [
-            ["arrive", "get", "arriving"],
+            ["arrive", "get here", "arriving"],
             ["for", "in", "until"]
           ],
           "correctAnswers": [2, 1]
@@ -5244,7 +5244,7 @@
           "correctAnswers": [0]
         },
         {
-          "text": "_ that okay?",
+          "text": "_ okay?",
           "options": [["Does that", "Is that", "Are you"]],
           "correctAnswers": [1]
         },

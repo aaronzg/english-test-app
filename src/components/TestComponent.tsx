@@ -43,7 +43,14 @@ export default function TestComponent({ currentTest, testId, isLast } : TestComp
     e.preventDefault()
 
     if (finished && isLast) return location.reload()
-    if (finished) return tabsRef.current?.setActiveTab(testId + 2)
+    if (finished) {
+      tabsRef.current?.setActiveTab(testId + 2)
+      console.log(document.getElementById('«r0»-tab-1'))
+      return window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
 
     const correctAnswers = flatCorrectAnswers(currentTest)
     const userAnswers = flatAnswers(currentTest, answers)
