@@ -1,41 +1,52 @@
-import { useParams } from 'react-router'
-import TestComponent from '../components/TestComponent'
-import { NotFound } from './NotFound'
-import { testContext } from '../context/testContext'
-import { useEffect, useRef, useState } from 'react'
-import { TabItem, Tabs, type TabsRef } from 'flowbite-react'
-import { TestForm } from '../components/TestForm'
-import test_2 from '../assets/test_book3.test.json'
-import test_1 from '../assets/test_book2.json'
-import { sliceTest } from '../helpers'
-import type { TestType } from '../types'
+import { useParams } from "react-router";
+import TestComponent from "../components/TestComponent";
+import { NotFound } from "./NotFound";
+import { testContext } from "../context/testContext";
+import { useEffect, useRef, useState } from "react";
+import { TabItem, Tabs, type TabsRef } from "flowbite-react";
+import { TestForm } from "../components/TestForm";
+import test_2 from "../assets/test_book3.test.json";
+import test_1 from "../assets/test_book2.json";
+import { sliceTest } from "../helpers";
+import type { TestType } from "../types";
 
 const Test = () => {
-  const [testQuestions, setTestQuestions] = useState<number>(-1)
-  const [testArr, setTestArr] = useState<TestType[]>([]) 
-  const tabsRef = useRef<TabsRef>(null)
-  const [, setCurrentTab] = useState(0)
-  
+  const [testQuestions, setTestQuestions] = useState<number>(-1);
+  const [startFrom, setStartFrom] = useState<number>(-1);
+  const [testArr, setTestArr] = useState<TestType[]>([]);
+  const tabsRef = useRef<TabsRef>(null);
+  const [, setCurrentTab] = useState(0);
+
   // console.log(currentTab)
-  const { tindex } = useParams()
-  const testNumber = Number(tindex)
-  
+  const { tindex } = useParams();
+  const testNumber = Number(tindex);
+
   useEffect(() => {
-    const selectedTest = testNumber === 1 ? test_1 : test_2 
-    const tests = sliceTest(selectedTest as TestType, testQuestions)
+    const local = localStorage.getItem("initial-values");
+    if (local) {
+      const values = JSON.parse(local);
+      setTestQuestions(values.optionValue);
+      setStartFrom(values.startValue);
+    }
+  }, []);
+
+  useEffect(() => {
+    const selectedTest = testNumber === 1 ? test_1 : test_2;
+    const tests = sliceTest(selectedTest as TestType, testQuestions, startFrom);
     // console.log(sliceTest(selectedTest, 10))
-    setTestArr(tests)
-  },[testQuestions, testNumber]) 
+    setTestArr(tests);
+  }, [testQuestions, startFrom, testNumber]);
 
   if (testNumber < 1 || testNumber > 2 || !testNumber) {
-    return <NotFound />
+    return <NotFound />;
   }
-  
+
   return (
     <testContext.Provider
       value={{
         testQuestions,
         setTestQuestions,
+        setStartFrom,
         tabsRef,
       }}
     >
@@ -82,7 +93,7 @@ const Test = () => {
         </Tabs>
       </div>
     </testContext.Provider>
-  )
-}
+  );
+};
 
-export default Test
+export default Test;

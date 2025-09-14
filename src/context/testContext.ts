@@ -4,6 +4,7 @@ import { createContext, type Dispatch, type RefObject, type SetStateAction } fro
 type TestContext = {
   testQuestions: number
   setTestQuestions: Dispatch<SetStateAction<number>>
+  setStartFrom: Dispatch<SetStateAction<number>>
   tabsRef: RefObject<TabsRef | null>
 }
 

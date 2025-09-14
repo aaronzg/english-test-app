@@ -16,7 +16,6 @@ import {
 import { Chart } from '../components/Chart'
 import { useTest } from '../hooks/useTest'
 import { useTestContext } from '../hooks/useTestContext'
-import { TestAlert } from './TestAlert'
 //import test_book_2 from '../assets/test_book2.json'
 type TestComponentProps = {
   currentTest: TestType
@@ -44,7 +43,14 @@ export default function TestComponent({ currentTest, testId, isLast } : TestComp
     e.preventDefault()
 
     if (finished && isLast) return location.reload()
-    if (finished) return tabsRef.current?.setActiveTab(testId + 2)
+    if (finished) {
+      tabsRef.current?.setActiveTab(testId + 2)
+      console.log(document.getElementById('«r0»-tab-1'))
+      return window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
 
     const correctAnswers = flatCorrectAnswers(currentTest)
     const userAnswers = flatAnswers(currentTest, answers)
@@ -91,7 +97,6 @@ export default function TestComponent({ currentTest, testId, isLast } : TestComp
         <answersContext.Provider value={{ errors }}>
           {currentTest.map((question, idx) => {
             const { id } = question
-
             if (question.type === 'choose') {
               return (
                 <Choose data={question.data} id={id} key={idx} onAnswer={handleAnswer} />
@@ -135,7 +140,7 @@ export default function TestComponent({ currentTest, testId, isLast } : TestComp
           </Button>
         </ModalFooter>
       </Modal>
-      <TestAlert />
+      
     </div>
   )
 }

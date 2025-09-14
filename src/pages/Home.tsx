@@ -1,6 +1,7 @@
 import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import { Link } from 'react-router'
+// This comment was made from my chromebook
 
 
 export default function Home() {
