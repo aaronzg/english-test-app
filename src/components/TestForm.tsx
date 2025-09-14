@@ -26,14 +26,17 @@ export const TestForm = () => {
 
   return (
     <>
-      <div className='container px-5 py-6 rounded-xl space-y-3 md:bg-gray-700 max-w-max md:mx-auto md:mt-10'>
-        <h1>Contesta para continuar</h1>
+      <div className='container px-5 py-6 rounded-xl space-y-3 max-w-max md:mx-auto md:mt-10'>
+        <div className='bg-gradient-to-r from-indigo-600 via-pink-600 to-blue-600 bg-clip-text text-transparent'>
+          <h1>Contesta para continuar</h1>
+        </div>
 
         <form onSubmit={handleSumbit} className='flex flex-col gap-4'>
           <div>
             <Label
               htmlFor='test-questions'
               color={errorMessage ? 'failure' : 'gray'}
+              className='text-black dark:text-white font-light'
             >
               Selecciona cuantas preguntas quieres
             </Label>
@@ -54,7 +57,8 @@ export const TestForm = () => {
             </Select>
             {errorMessage && <HelperText>{errorMessage}</HelperText>}
           </div>
-          <Button type='submit' className='max-w-max'>
+          <Button type='submit' className='max-w-max bg-gradient-to-r from-purple-600 to-blue-600 shadow-sm hover:from-purple-700 hover:to-blue-700 hover:shadow-md
+          focus:outline-none'>
             Continuar
           </Button>
         </form>

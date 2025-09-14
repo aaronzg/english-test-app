@@ -32,27 +32,55 @@ const Test = () => {
   }
   
   return (
-    <testContext.Provider value={{
-      testQuestions,
-      setTestQuestions,
-      tabsRef
-    }}>
-      <Tabs aria-label='Default tabs' variant='default' theme={{tablist: { variant: { default: "flex-nowrap overflow-x-scroll" }}}} ref={tabsRef} onActiveTabChange={(tab) => setCurrentTab(tab)}>
-        <TabItem title='Form' active disabled={testQuestions >= 0}>
-          <h1 className='text-center py-5'>Test book {testNumber + 1}</h1>
-          <TestForm />
-        </TabItem>
-        {
-          testQuestions <= 0 &&
-          <TabItem title='Test' disabled={testQuestions <= 0}>
+    <testContext.Provider
+      value={{
+        testQuestions,
+        setTestQuestions,
+        tabsRef,
+      }}
+    >
+      <div className='bg-base-white dark:bg-gradient-to-br min-h-scree'> {/* Pending: dark:from-black dark:via-gray-900 dark:to-black */}
+        <Tabs
+          aria-label='Default tabs'
+          variant='default'
+          theme={{
+            tablist: {
+              variant: { default: 'flex-nowrap overflow-x-scroll' },
+              tabitem: {
+                variant: {
+                  default: {
+                    active: {
+                      on: 'bg-gradient-to-r from-purple-600 to-pink-600 text-white dark:text-white',
+                    },
+                  },
+                },
+              },
+            },
+          }}
+          ref={tabsRef}
+          onActiveTabChange={(tab) => setCurrentTab(tab)}
+        >
+          <TabItem title='Form' active disabled={testQuestions >= 0}>
+            <div className='bg-gradient-to-r from-blue-700 via-purple-600 to-pink-600 bg-clip-text text-transparent'>
+              <h1 className='text-center py-5'>Test book {testNumber + 1}</h1>
+            </div>
+            <TestForm />
           </TabItem>
-        }
-        {
-          testQuestions >= 0 &&
-          testArr.map((test, id) => <TabItem title={`Test ${id + 1}/${testArr.length}`}><TestComponent currentTest={test} testId={id} isLast={id === testArr.length - 1} /></TabItem>)
-        }
-      </Tabs>
-
+          {testQuestions <= 0 && (
+            <TabItem title='Test' disabled={testQuestions <= 0}></TabItem>
+          )}
+          {testQuestions >= 0 &&
+            testArr.map((test, id) => (
+              <TabItem title={`Test ${id + 1}/${testArr.length}`}>
+                <TestComponent
+                  currentTest={test}
+                  testId={id}
+                  isLast={id === testArr.length - 1}
+                />
+              </TabItem>
+            ))}
+        </Tabs>
+      </div>
     </testContext.Provider>
   )
 }

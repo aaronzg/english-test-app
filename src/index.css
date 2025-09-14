@@ -3,14 +3,21 @@
 @source "../.flowbite-react/class-list.json";
 
 body{
-  @apply bg-stone-200 dark:bg-stone-950 dark:text-white text-black 
+  @apply bg-base-white;
 }
 
 @layer components {
   .option_card {
-    @apply bg-stone-400 text-center text-black min-w-50 min-h-50 flex justify-center  items-center rounded-4xl font-bold text-xl shadow-2xl transition-transform;
-    @apply select-none;
-    @apply hover:scale-105 active:scale-95
+    @apply bg-gradient-to-bl from-blue-600 to-indigo-600
+          text-stone-200 text-center font-semibold
+          py-2 rounded-xl
+          w-50 
+          shadow-sm;
+    @apply select-none cursor-pointer;
+    @apply transition-all duration-300;
+    @apply hover:scale-105 hover:shadow-md hover:from-blue-600 hover:to-indigo-700 
+          active:scale-95 active:shadow-2xs
+          focus:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500;
   }
   .question_wrong {
     @apply border-red-600 shadow-sm shadow-red-600 bg-red-400/20
@@ -37,4 +44,5 @@ body{
 
 @theme {
   --color-dark: #2f2f2f;
+  --color-base-white: #f4f4f4;
 }
