@@ -5,7 +5,6 @@ export const useWhatQuestionContext = () => {
   const {
     id,
     data,
-    onAnswer,
     setToastText,
     setShowToast,
     setIsWrong
@@ -14,7 +13,6 @@ export const useWhatQuestionContext = () => {
   return {
     id,
     data,
-    onAnswer,
     setToastText,
     setShowToast,
     setIsWrong

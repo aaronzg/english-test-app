@@ -6,7 +6,7 @@ import { answersContext } from '../context/answersContex'
 export default function Choose({
   data,
   id,
-  onAnswer,
+  onAnswer
 }: {
   data: ChooseQuestion['data']
   id: number
@@ -15,11 +15,11 @@ export default function Choose({
   const answers = useContext(answersContext)
   const currentAnswer = answers.answers[id] as string
   const isFinished = answers.finished
-
   const isWrong = answers.errors[id]?.length > 0
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    onAnswer(id, e.target.value)
+    const answer = e.target.value
+    onAnswer(id, answer)
   }
 
   return (

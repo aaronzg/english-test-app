@@ -54,7 +54,13 @@ export default function TestComponent({
     setShowMessage,
   } = useTest()
 
-  const { tabsRef, testQuestions, startFrom, globalTestData, clearAllTestData } = useTestContext()
+  const {
+    tabsRef,
+    testQuestions,
+    startFrom,
+    globalTestData,
+    clearAllTestData,
+  } = useTestContext()
 
   // Cargar datos persistidos al inicializar el componente
   useEffect(() => {
@@ -66,14 +72,24 @@ export default function TestComponent({
       if (testData.finished) {
         setFinished(testData.finished)
         // Si ya está terminado, calcular los resultados
-        const { percentage, string } = calculateUserScore(currentTest, testData.answers)
+        const { percentage, string } = calculateUserScore(
+          currentTest,
+          testData.answers
+        )
         const newErrors = getUserErrors(currentTest, testData.answers)
         setErrors(newErrors)
         setNote({ percentage, string })
       }
     }
-  }, [testId, globalTestData, currentTest, setAnswers, setFinished, setErrors, setNote])
-
+  }, [
+    testId,
+    globalTestData,
+    currentTest,
+    setAnswers,
+    setFinished,
+    setErrors,
+    setNote,
+  ])
 
   const checkTest = () => {
     const isFinished =
@@ -109,7 +125,7 @@ export default function TestComponent({
     setShowResults(false)
     setNote({ percentage: 0, string: '' })
     setShowMessage(false)
-    
+
     // Llamar onAnswer para limpiar los datos persistidos de este test
     onAnswer(testId, {})
     onFinish(testId, false)
@@ -153,7 +169,7 @@ export default function TestComponent({
   return (
     <div>
       <header>
-        <div className='font-semibold max-w-2xl mx-10 px-3 py-4 shadow-sm bg-white dark:bg-gradient-to-r dark:from-gray-950 dark:to-stone-950 dark:text-blue-400 dark:border dark:border-blue-500 rounded-lg'>
+        <div className='font-semibold max-w-2xl mx-10 px-3 py-4 shadow-sm md:mx-auto bg-white dark:bg-gradient-to-r dark:from-gray-950 dark:to-stone-950 dark:text-blue-400 dark:border dark:border-blue-500 rounded-lg'>
           <span>
             Questions {testId * testQuestions + startFrom + 1} -{' '}
             {testId * testQuestions + testQuestions + startFrom}
@@ -165,7 +181,7 @@ export default function TestComponent({
         onSubmit={handleSumbit}
       >
         <answersContext.Provider
-          value={{ errors, answers, setAnswers, finished }}
+          value={{ errors, answers, setAnswers, finished, onAnswer, testId }}
         >
           {currentTest.map((question, idx) => {
             const { id } = question
@@ -190,24 +206,10 @@ export default function TestComponent({
               )
             }
             if (question.type === 'whats-the-word') {
-              return (
-                <What
-                  data={question.data}
-                  id={id}
-                  key={idx}
-                  onAnswer={handleAnswer}
-                />
-              )
+              return <What data={question.data} id={id} key={idx} />
             }
             if (question.type === 'which-word') {
-              return (
-                <Which
-                  data={question.data}
-                  id={id}
-                  key={idx}
-                  onAnswer={handleAnswer}
-                />
-              )
+              return <Which data={question.data} id={id} key={idx} />
             }
           })}
 

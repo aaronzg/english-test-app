@@ -8,12 +8,10 @@ import { useAnswersContext } from '../hooks/useAnswersContext'
 
 export default function What({
   id,
-  data,
-  onAnswer,
+  data
 }: {
   id: number
   data: WhatQuestion['data']
-  onAnswer: (id: number, answer: string | string[]) => void
 }) {
   // estado para el toast y validaciones locales
   const {
@@ -32,7 +30,6 @@ export default function What({
       value={{
         id,
         data,
-        onAnswer,
         setToastText,
         setShowToast,
         setIsWrong,

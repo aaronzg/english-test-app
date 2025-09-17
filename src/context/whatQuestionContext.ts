@@ -4,7 +4,6 @@ import type { WhatQuestion } from "../types";
 interface WhatQuestionContext {
   id: number
   data: WhatQuestion['data']
-  onAnswer: (id: number, answer: string | string[]) => void
   setToastText: React.Dispatch<SetStateAction<string>>
   setShowToast: React.Dispatch<SetStateAction<boolean>>
   setIsWrong: React.Dispatch<SetStateAction<boolean>>

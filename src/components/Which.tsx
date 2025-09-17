@@ -7,18 +7,16 @@ import { useAnswersContext } from '../hooks/useAnswersContext'
 export default function Which({
   id,
   data,
-  onAnswer,
 }: {
   id: number
   data: WhichQuestion['data']
-  onAnswer: (id: number, answer: string | string[]) => void
 }) {
   const [isWrong, setIsWrong] = useState(false)
 
   const { finished } = useAnswersContext({})
 
   return (
-    <whichQuestionContext.Provider value={{ id, data, onAnswer, setIsWrong }}>
+    <whichQuestionContext.Provider value={{ id, data, setIsWrong }}>
       <div
         className={`base_question_card ${
           isWrong

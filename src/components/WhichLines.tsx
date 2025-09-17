@@ -1,16 +1,24 @@
+import { useEffect, type Dispatch, type SetStateAction } from 'react'
 import { useAnswersContext } from '../hooks/useAnswersContext'
 import { useWhichQuestionContext } from '../hooks/useWhichQuestionContext'
-import type { WhichLine } from '../types'
+import type { UserAnswers, WhichLine } from '../types'
 
 export const WhichLines = () => {
-  const { id, data, onAnswer, setIsWrong } = useWhichQuestionContext()
+  const { id, data, setIsWrong } = useWhichQuestionContext()
 
   const { errors, finished, answers, setAnswers } = useAnswersContext({ id }) as {
     errors: number[]
     finished: boolean
     answers: string[]
-    setAnswers: (answers: string[]) => void
+    setAnswers: Dispatch<SetStateAction<UserAnswers>>
   } 
+
+   // Verficar si el answers esta vacio (se reinicio) settear el isWrong a false
+    useEffect(() => {
+      if (!answers?.length) {
+        setIsWrong(false)
+      }
+    }, [answers, setIsWrong])
 
   const handleChange = (lineIndex: number, blankIdx: number, value: string) => {
     const globalIndex =
@@ -34,8 +42,7 @@ export const WhichLines = () => {
     const newAnswers = [...currentAnswers]
     newAnswers[globalIndex] = value || ''
 
-    setAnswers(newAnswers)
-    onAnswer(id, newAnswers)
+    setAnswers(prev => ({...prev, [id]: newAnswers }))
   }
 
   const renderLine = (line: WhichLine, lineIndex: number) => {

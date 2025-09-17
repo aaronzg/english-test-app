@@ -1,16 +1,17 @@
 import { useWhatQuestionContext } from "../hooks/useWhatQuestionContext"
 import { useAnswersContext } from "../hooks/useAnswersContext"
+import type { Dispatch, SetStateAction } from "react"
+import type { UserAnswers } from "../types"
 
 export const Options = () => {
   const {
       id,
-      data,
-      onAnswer,
+      data
     } = useWhatQuestionContext()
     
   const { answers, setAnswers } = useAnswersContext({ id }) as {
     answers: string[]
-    setAnswers: (answers: string[]) => void
+    setAnswers: Dispatch<SetStateAction<UserAnswers>>
   }
     
   const handleOptionClick = (option: string) => {
@@ -34,8 +35,9 @@ export const Options = () => {
     
     const newAnswers = [...currentAnswers]
     newAnswers[optionIndex] = optionValueIndex.toString()
-    setAnswers(newAnswers)
-    onAnswer(id, newAnswers)
+    
+    // onAnswer(id, newAnswers)
+    setAnswers(prev => ({...prev, [id]: newAnswers}))
   }
   return (
     <div className='flex flex-wrap gap-2 mb-4'>
