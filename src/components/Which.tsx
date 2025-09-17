@@ -2,6 +2,7 @@ import { useState } from 'react'
 import type { WhichQuestion } from '../types'
 import { whichQuestionContext } from '../context/whichQuestionContext'
 import { WhichLines } from './WhichLines'
+import { useAnswersContext } from '../hooks/useAnswersContext'
 
 export default function Which({
   id,
@@ -12,19 +13,25 @@ export default function Which({
   data: WhichQuestion['data']
   onAnswer: (id: number, answer: string | string[]) => void
 }) {
-  const totalOptions = data.lines.reduce((acc, line) => {
-    const result = acc + line.options.length
-    return result
-  }, 0)
+  const [isWrong, setIsWrong] = useState(false)
 
-  const [answers, setAnswers] = useState<string[]>(Array(totalOptions).fill(''))
+  const { finished } = useAnswersContext({})
 
   return (
-    <whichQuestionContext.Provider
-      value={{ id, data, answers, setAnswers, onAnswer }}
-    >
-      <div className='p-4 border rounded'>
-        <h4>{id}. Which</h4>
+    <whichQuestionContext.Provider value={{ id, data, onAnswer, setIsWrong }}>
+      <div
+        className={`base_question_card ${
+          isWrong
+            ? 'border border-red-500'
+            : finished
+            ? 'border border-green-500'
+            : ''
+        }`}
+      >
+        <div className='question_card_header'>
+          <span className='question_number'>{id}</span>
+          <h4 className='text-lg'>Which word?</h4>
+        </div>
         <WhichLines />
       </div>
     </whichQuestionContext.Provider>

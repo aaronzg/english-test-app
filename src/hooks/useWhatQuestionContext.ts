@@ -6,19 +6,17 @@ export const useWhatQuestionContext = () => {
     id,
     data,
     onAnswer,
-    answers,
-    setAnswers,
     setToastText,
     setShowToast,
+    setIsWrong
   } = useContext(whatQuestionContext)
 
   return {
     id,
     data,
     onAnswer,
-    answers,
-    setAnswers,
     setToastText,
     setShowToast,
+    setIsWrong
   }
 }

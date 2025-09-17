@@ -6,18 +6,23 @@ export const Lines = () => {
     id,
     data,
     onAnswer,
-    answers,
-    setAnswers,
     setToastText,
     setShowToast,
+    setIsWrong
   } = useWhatQuestionContext()
 
-  const { errors } = useAnswersContext({ id }) as { errors: number[] }
+  const { errors, finished, answers, setAnswers } = useAnswersContext({ id }) as {
+    errors: number[]
+    finished: boolean
+    answers: string[]
+    setAnswers: (answers: string[]) => void
+  }
 
   const handleChange = (blankIndex: number, value: string) => {
     const newValue = Number(value)
 
-    if (value !== '' && answers.includes(value)) {
+    // Verificar si ya existe la respuesta (evitar duplicados)
+    if (value !== '' && answers && answers.includes(value)) {
       setShowToast(true)
       setToastText(data.options[newValue])
       setTimeout(() => {
@@ -26,7 +31,15 @@ export const Lines = () => {
       return
     }
 
-    const newAnswers = [...answers]
+    // Crear nuevo array de respuestas o usar el existente
+    const currentAnswers = answers || []
+    const newAnswers = [...currentAnswers]
+    
+    // Asegurar que el array tenga el tamaño correcto
+    while (newAnswers.length <= blankIndex) {
+      newAnswers.push('')
+    }
+    
     newAnswers[blankIndex] = value
     setAnswers(newAnswers)
     onAnswer(id, newAnswers)
@@ -45,19 +58,27 @@ export const Lines = () => {
           if (needsBlank) {
             blankIndex = globalCounter++
           }
+          if (errors?.includes(i)) {
+            setIsWrong(true)
+          }
           return (
             <span key={i}>
               {part}
               {needsBlank && (
                 <select
                   id={id.toString() + i.toString()}
-                  className={`border rounded px-2 py-1 mx-1 bg-gray-800 ${
+                  className={`question_select shadow-sm ${
                     errors?.includes(i)
-                      ? 'border-red-500 shadow-md shadow-red-600'
+                      ? 'border-b-red-500 shadow-xl text-red-800 font-bold'
+                      : ''
+                  } ${answers?.[blankIndex] ? 'text-blue-700 dark:text-blue-500' : ''} ${
+                    !errors?.includes(i) && finished
+                      ? 'border-b-green-500 text-green-500'
                       : ''
                   }`}
-                  value={answers[blankIndex] ?? ''}
+                  value={answers?.[blankIndex] ?? ''}
                   onChange={(e) => handleChange(blankIndex, e.target.value)}
+                  disabled={finished}
                   required
                 >
                   <option value=''>-- choose --</option>

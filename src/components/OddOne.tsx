@@ -5,13 +5,12 @@ import { answersContext } from '../context/answersContex'
 export default function OddOne({
   id,
   data,
-  onAnswer
+  onAnswer,
 }: {
   id: number
   data: OddOneQuestion['data']
   onAnswer: (id: number, answer: string | string[]) => void
 }) {
-
   const answers = useContext(answersContext)
 
   const isWrong = answers.errors[id]?.length > 0
@@ -26,11 +25,11 @@ export default function OddOne({
       </h4>{' '}
       <div>
         {' '}
-        {data.options.map((option, i) => {
+        {data.options.map((_, i) => {
           const key = id.toString() + i.toString()
           return (
             <div className={`flex justify-between`} key={i}>
-              <label htmlFor={key}>{asignLetter(i, option)}</label>
+              <label htmlFor={key}>{asignLetter(i)}</label>
               <input
                 type='radio'
                 name={id.toString()}

@@ -46,13 +46,18 @@ export default function Home() {
         <h2 className='text-center mt-3 mb-8 dark:text-stone-200'>
           Choose a test
         </h2>
-        <div id='home_test_options' className='flex flex-col gap-6 mx-10 items-center'>
+        <div
+          id='home_test_options'
+          className='flex flex-col gap-6 mx-10 items-center'
+        >
           <Link to={'/test/1'} className='option_card'>
-            Book 2
+            Book 2 <br />
+            <span className='font-light text-sm'>Current test</span>
           </Link>
 
           <Link to={'/test/2'} className='option_card'>
-            Book 3
+            Book 3 <br />
+            <span className='font-light text-sm'>Maybe future test</span>
           </Link>
         </div>
       </main>

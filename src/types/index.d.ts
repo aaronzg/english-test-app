@@ -3,9 +3,17 @@ interface QuestionBase {
   id: number
 }
 
+export type GlobalTestAnswers = {
+  answers: UserAnswers,
+  finished: boolean
+}
+
+export type GlobalTestData = Record<number, GlobalTestAnswers>
+
+// Type for the map of the user's errors
 export type QuestionErrors = Record<number, number[]>
 
-
+// Type for the map of the user's answers
 export type UserAnswers = Record<number, string | string[]>
 
 // Which-word line

@@ -4,6 +4,7 @@ import { useWhatQuestion } from '../hooks/useWhatQuestion'
 import { whatQuestionContext } from '../context/whatQuestionContext'
 import { Options } from './Options'
 import { Lines } from './Lines'
+import { useAnswersContext } from '../hooks/useAnswersContext'
 
 export default function What({
   id,
@@ -14,15 +15,17 @@ export default function What({
   data: WhatQuestion['data']
   onAnswer: (id: number, answer: string | string[]) => void
 }) {
-  // estado para guardar qué opción eligió el usuario en cada hueco
+  // estado para el toast y validaciones locales
   const {
-    answers,
-    setAnswers,
     showToast,
     setShowToast,
     toastText,
     setToastText,
+    isWrong,
+    setIsWrong,
   } = useWhatQuestion({ data })
+
+  const { finished } = useAnswersContext({})
 
   return (
     <whatQuestionContext.Provider
@@ -30,14 +33,24 @@ export default function What({
         id,
         data,
         onAnswer,
-        answers,
-        setAnswers,
         setToastText,
         setShowToast,
+        setIsWrong,
       }}
     >
-      <div className='p-4 border rounded'>
-        <h4 className='font-bold mb-2'>{id}. What’s the word?</h4>
+      <div
+        className={`base_question_card ${
+          isWrong
+            ? 'border-red-500 border'
+            : finished
+            ? 'border-green-500 border'
+            : ''
+        }`}
+      >
+        <div className='question_card_header'>
+          <span className='question_number'>{id}</span>
+          <h4 className='text-lg'>What's the word?</h4>
+        </div>
 
         <header>
           {/* Opciones disponibles */}

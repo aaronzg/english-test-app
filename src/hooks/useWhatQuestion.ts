@@ -7,6 +7,7 @@ export const useWhatQuestion = ({ data } : {data : WhatQuestion['data']}) => {
   )
   const [showToast, setShowToast] = useState(false)
   const [toastText, setToastText] = useState('')
+  const [isWrong, setIsWrong] = useState(false)
 
-  return { answers, setAnswers, showToast,setShowToast, toastText, setToastText}
+  return { answers, setAnswers, showToast,setShowToast, toastText, setToastText, isWrong, setIsWrong}
 }

@@ -65,7 +65,7 @@ export const Chart = ({percentage, label} : {percentage: number, label: string})
           shade: 'dark',
           type: 'horizontal',
           shadeIntensity: 0.5,
-          gradientToColors: ['#ABE5A1'],
+          gradientToColors: ['#D81B60'],
           inverseColors: true,
           opacityFrom: 1,
           opacityTo: 1,
@@ -89,7 +89,7 @@ export const Chart = ({percentage, label} : {percentage: number, label: string})
             type='radialBar'
             height={350}
           />
-          <p className='text-center text-gray-300'>
+          <p className='text-center text-gray-700 dark:text-gray-300'>
             Tu puntuación <span className="font-bold">{label}</span>
           </p>
         </div>

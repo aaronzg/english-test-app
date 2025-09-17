@@ -1,10 +1,9 @@
-import { useContext } from "react"
-import { answersContext } from "../context/answersContex"
+import { useContext } from 'react'
+import { answersContext } from '../context/answersContex'
 
-export const useAnswersContext = ({ id } : { id?: number }) => {
-    const context = useContext(answersContext)
-    const errors = context.errors
-    if(!id) return { errors }
+export const useAnswersContext = ({ id }: { id?: number }) => {
+  const { errors, answers, finished, setAnswers } = useContext(answersContext)
+  if (!id) return { errors, answers, finished, setAnswers }
 
-    return { errors: errors[id] };
+  return { errors: errors[id], answers: answers[id], finished, setAnswers }
 }

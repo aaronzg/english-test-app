@@ -3,13 +3,11 @@ import { Toast } from "./Toast";
 import React, { useState, useEffect } from "react";
 import { useTestContext } from "../hooks/useTestContext";
 export const TestForm = () => {
-  const { setTestQuestions, setStartFrom, tabsRef } = useTestContext();
+  const { setTestQuestions, setStartFrom, tabsRef, testNumber } = useTestContext();
 
   const testQuestionsOptions = [5, 10, 15, 20, 25, 30, 40, 50, 100];
   const [optionValue, setOptionValue] = useState<number>();
   const [startValue, setStartValue] = useState<number>();
-  // const [errorMessage, setErrorMessage] = useState('')
-
   const [errorMessage, setErrorMessage] = useState({
     questions: "",
     startFrom: "",
@@ -67,7 +65,7 @@ export const TestForm = () => {
     setStartFrom(startValue);
 
     localStorage.setItem(
-      "initial-values",
+      `${testNumber}-initial-values`,
       JSON.stringify({ optionValue, startValue })
     );
     setShowToast(true);
@@ -108,6 +106,7 @@ export const TestForm = () => {
             <Label
               htmlFor="start-from"
               color={errorMessage.startFrom ? "failure" : "gray"}
+              className="text-black dark:text-white font-light"
             >
               Elige desde donde quieres empezar
             </Label>
