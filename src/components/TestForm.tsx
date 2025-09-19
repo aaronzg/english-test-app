@@ -21,13 +21,13 @@ export const TestForm = () => {
   ];
 
   useEffect(() => {
-    const local = localStorage.getItem("initial-values");
+    const local = localStorage.getItem(`${testNumber}-initial-values`);
     if (local) {
       const values = JSON.parse(local);
       setOptionValue(values.optionValue);
       setStartValue(values.startValue);
     }
-  }, []);
+  }, [testNumber]);
 
   const handleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
     if (e.target.id === "test-questions") {
@@ -61,6 +61,7 @@ export const TestForm = () => {
         ...prev,
         startFrom: "Elige una opcion",
       }));
+    
     setTestQuestions(optionValue);
     setStartFrom(startValue);
 

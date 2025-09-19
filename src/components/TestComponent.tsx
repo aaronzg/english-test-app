@@ -95,6 +95,11 @@ export default function TestComponent({
     const isFinished =
       flatAnswers(currentTest, answers).length ===
       flatCorrectAnswers(currentTest).length
+    
+    console.log(answers[265])
+    console.log(flatAnswers(currentTest, answers).length, flatCorrectAnswers(currentTest).length)
+    console.log(isFinished)
+
     if (!isFinished) {
       return setShowMessage(true)
     }
@@ -106,6 +111,7 @@ export default function TestComponent({
 
     const newErrors = getUserErrors(currentTest, answers)
 
+    onAnswer(testId, answers)
     setFinished(isFinished)
     onFinish(testId, isFinished)
 

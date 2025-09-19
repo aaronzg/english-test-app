@@ -2215,7 +2215,7 @@
         "hospital",
         "the Park Street"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 0
     }
   },
   {
@@ -2766,7 +2766,7 @@
         {
           "text": "I also think Richard _ come to work so _.",
           "options": [["might", "shouldn't", "won't"], ["lately", "later", "late"]],
-          "correctAnswers": [2, 2]
+          "correctAnswers": [1, 2]
         },
         {
           "text": "If he _ to work on time, he might not lose his job.",
@@ -3989,7 +3989,7 @@
       "question": "___ to study for a test.",
       "options": [
         "She's",
-        "She has",
+        "She has to",
         "She had",
         "She need"
       ],
@@ -4121,7 +4121,7 @@
         {
           "text": "There's water everywhere, and I've _ get to work!",
           "options": [["can't", "have", "got"]],
-          "correctAnswers": [1]
+          "correctAnswers": [2]
         },
         {
           "text": "B. I'm sorry. I _ send a repairperson right now.",
@@ -4141,7 +4141,7 @@
         {
           "text": "I won't _ to send a repairperson for a few more hours.",
           "options": [["can't", "able to", "be able"]],
-          "correctAnswers": [1]
+          "correctAnswers": [2]
         }
       ]
     }
@@ -4156,7 +4156,7 @@
         "fewer",
         "less"
       ],
-      "correctAnswer": 2
+      "correctAnswer": 1
     }
   },
   {
@@ -5543,7 +5543,7 @@
         "should",
         "was able to"
       ],
-      "correctAnswer": 3
+      "correctAnswer": 0
     }
   },
   {
@@ -5781,7 +5781,7 @@
         "won't",
         "must"
       ],
-      "correctAnswer": 1
+      "correctAnswer": 2
     }
   },
   {

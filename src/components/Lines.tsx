@@ -21,10 +21,10 @@ export const Lines = () => {
 
   // Verficar si el answers esta vacio (se reinicio) settear el isWrong a false
   useEffect(() => {
-    if (!answers?.length) {
+    if (!answers?.length || !finished) {
       setIsWrong(false)
     }
-  }, [answers, setIsWrong])
+  }, [answers, finished, setIsWrong])
 
   const handleChange = (blankIndex: number, value: string) => {
     const newValue = Number(value)

@@ -6,11 +6,13 @@ import type { UserAnswers, WhichLine } from '../types'
 export const WhichLines = () => {
   const { id, data, setIsWrong } = useWhichQuestionContext()
 
-  const { errors, finished, answers, setAnswers } = useAnswersContext({ id }) as {
+  const { errors, finished, answers, setAnswers, onAnswer, testId } = useAnswersContext({ id }) as {
     errors: number[]
     finished: boolean
     answers: string[]
     setAnswers: Dispatch<SetStateAction<UserAnswers>>
+    onAnswer: (testId: number, answers: UserAnswers) => void
+    testId: number
   } 
 
    // Verficar si el answers esta vacio (se reinicio) settear el isWrong a false
@@ -42,7 +44,11 @@ export const WhichLines = () => {
     const newAnswers = [...currentAnswers]
     newAnswers[globalIndex] = value || ''
 
-    setAnswers(prev => ({...prev, [id]: newAnswers }))
+    setAnswers(prev => {
+      const next = { ...prev, [id]: newAnswers }
+      onAnswer(testId, next)
+      return next
+    })
   }
 
   const renderLine = (line: WhichLine, lineIndex: number) => {
@@ -57,7 +63,7 @@ export const WhichLines = () => {
             data.lines
               .slice(0, lineIndex)  
               .reduce((acc, l) => acc + l.options.length, 0) + i
-          if(Array.isArray(errors) && errors.includes(i)) {
+          if(Array.isArray(errors) && errors.includes(globalIndex)) {
             setIsWrong(true)
           }
           const needsBlank = i < parts.length - 1
@@ -67,7 +73,7 @@ export const WhichLines = () => {
               {needsBlank && (
                 <select
                   className={`question_select shadow-sm ${
-                    Array.isArray(errors) && errors.includes(i)
+                    Array.isArray(errors) && errors.includes(globalIndex)
                       ? 'border-red-500 shadow-xl text-red-500'
                       : finished ? 'border-green-500 text-green-600' : ''
                   } ${answers?.[globalIndex] ? 'border-blue-500 text-blue-700' : ''}`}
@@ -79,7 +85,7 @@ export const WhichLines = () => {
                   <option value=''>-- choose --</option>
                   {line.options[i].map((option, idx) => {
                     return (
-                      <option key={idx} value={idx}>
+                      <option key={idx} value={idx.toString()}>
                         {option}
                       </option>
                     )
