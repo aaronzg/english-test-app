@@ -92,12 +92,14 @@ export default function TestComponent({
   ])
 
   const checkTest = () => {
-    const isFinished =
-      flatAnswers(currentTest, answers).length ===
+    const correctAnswersLen = flatCorrectAnswers(currentTest).length
+    const userAnswersLen = flatAnswers(currentTest, answers).length
+    const isFinished = userAnswersLen >= correctAnswersLen
+
+    console.log(
+      flatAnswers(currentTest, answers).length,
       flatCorrectAnswers(currentTest).length
-    
-    console.log(answers[265])
-    console.log(flatAnswers(currentTest, answers).length, flatCorrectAnswers(currentTest).length)
+    )
     console.log(isFinished)
 
     if (!isFinished) {

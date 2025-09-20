@@ -36,7 +36,7 @@ export default function Home() {
           id='home_title'
           className='bg-gradient-to-r text-transparent from-blue-600 via-indigo-600 to-purple-600 bg-clip-text'
         >
-          <h1>
+          <h1 className='font-black'>
             英語の<span>テスト</span>
           </h1>
         </div>
